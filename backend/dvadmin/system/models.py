@@ -457,3 +457,33 @@ class MessageCenterTargetUser(CoreModel):
         db_table = table_prefix + "message_center_target_user"
         verbose_name = "消息中心目标用户表"
         verbose_name_plural = verbose_name
+
+
+class Employee(models.Model):
+    id = models.BigAutoField(primary_key=True, help_text="Id", verbose_name="Id")
+    name = models.CharField(max_length=10, verbose_name="姓名", help_text="姓名")
+    employee_number = models.CharField(max_length=20, null=True, blank=True, verbose_name="员工编号", help_text="员工编号")
+    gender = models.CharField(max_length=1, null=True, blank=True, verbose_name="性别", help_text="性别")
+    card_number = models.CharField(max_length=18, null=True, blank=True, verbose_name="身份证号", help_text="身份证号")
+    card_expire = models.CharField(max_length=10, null=True, blank=True, verbose_name="身份证到期", help_text="身份证到期")
+    degree = models.CharField(max_length=5, null=True, blank=True,  verbose_name="学历", help_text="学历")
+    phone = models.CharField(max_length=11, null=True, blank=True, verbose_name="电话", help_text="电话")
+    formal_preparation = models.CharField(max_length=1, null=True, blank=True, verbose_name="是否正编", help_text="是否正编")
+    specialized = models.CharField(max_length=20, null=True, blank=True,  verbose_name="专业", help_text="专业")
+    graduation_date = models.CharField(max_length=10, null=True, blank=True,  verbose_name="毕业时间", help_text="毕业时间")
+    social_security = models.CharField(max_length=10, null=True, blank=True, verbose_name="社保缴纳地", help_text="社保缴纳地")
+    contract_expire = models.CharField(max_length=10, null=True, blank=True, verbose_name="合同到期", help_text="合同到期")
+    certificate_name = models.CharField(max_length=100, null=True, blank=True, verbose_name="证书名称", help_text="证书名称")
+    certificate_valid_date = models.CharField(max_length=10, null=True, blank=True, verbose_name="证书生效日期",
+                                              help_text="证书生效日期")
+    certificate_expire_date = models.CharField(max_length=10, null=True, blank=True, verbose_name="证书失效日期",
+                                               help_text="证书失效日期")
+    verify_url = models.CharField(max_length=255, null=True, blank=True, verbose_name="验真网址", help_text="验真网址")
+    grade = models.CharField(max_length=5, null=True, blank=True,  verbose_name="等级", help_text="等级")
+    certification_body = models.CharField(max_length=100, null=True, blank=True, verbose_name="认证机构", help_text="认证机构")
+
+    class Meta:
+        db_table = table_prefix + "system_employee"
+        verbose_name = "员工表"
+        verbose_name_plural = verbose_name
+        ordering = ("id",)

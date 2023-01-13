@@ -209,6 +209,18 @@ const refreshTken = function () {
   })
 }
 
+const download = function (res, fileName) {
+  const blob = new Blob([res.data], { type: 'charset=utf-8' })
+  const elink = document.createElement('a')
+  elink.download = fileName
+  elink.style.display = 'none'
+  elink.href = URL.createObjectURL(blob)
+  document.body.appendChild(elink)
+  elink.click()
+  URL.revokeObjectURL(elink.href) // 释放URL 对象0
+  document.body.removeChild(elink)
+}
+
 /**
  * 下载文件
  * @param url
@@ -227,15 +239,30 @@ export const downloadFile = function ({ url, params, method, filename = '文件�
     const xlsxName = window.decodeURI(res.headers['content-disposition'].split('=')[1])
     const fileName = xlsxName || `${filename}.xlsx`
     if (res) {
-      const blob = new Blob([res.data], { type: 'charset=utf-8' })
-      const elink = document.createElement('a')
-      elink.download = fileName
-      elink.style.display = 'none'
-      elink.href = URL.createObjectURL(blob)
-      document.body.appendChild(elink)
-      elink.click()
-      URL.revokeObjectURL(elink.href) // 释放URL 对象0
-      document.body.removeChild(elink)
+      download(res, fileName)
+    }
+  })
+}
+
+/**
+ * 下载Word文件
+ * @param url
+ * @param params
+ * @param method
+ * @param filename
+ */
+export const downloadWord = function ({ url, data, method, filename }) {
+  const date = new Date()
+  request({
+    url: url,
+    method: method,
+    data: data,
+    responseType: 'blob'
+    // headers: {Accept: 'application/vnd.openxmlformats-officedocument'}
+  }).then(res => {
+    const fileName = window.decodeURI(date.toLocaleDateString() + '.zip' || res.headers['content-disposition'].split('=')[1]) || '文件导出.docx'
+    if (res) {
+      download(res, fileName)
     }
   })
 }

@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     "django_filters",
     "corsheaders",  # 注册跨域app
     "dvadmin.system",
+    "dvadmin.project",
     "drf_yasg",
     "captcha",
     'channels',
@@ -355,6 +356,24 @@ CAPTCHA_NOISE_FUNCTIONS = (
 )
 # CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge' #字母验证码
 CAPTCHA_CHALLENGE_FUNCT = "captcha.helpers.math_challenge"  # 加减乘除验证码
+
+# ================================================= #
+# ******************** SVN配置 ******************** #
+# ================================================= #
+# SVN_URL = 'http://10.65.7.148/svn/LNcrm/ln-doc/辽宁移动系统升级'
+# SVN_USERNAME = 'smpany'
+# SVN_PASSWORD = 'Lnyd*132'
+SVN_SETTINGS = {
+    # svn 的本地安装路径
+    'svn': r'E:\02-日常软件\TortoiseSVN\bin',
+    # 需要下载的svn文件
+    'url': 'http://10.65.7.148/svn/LNcrm/ln-doc/辽宁移动系统升级/',
+    # svn账号
+    'user': 'smpany',
+    # svn密码
+    'pwd': 'Lnyd*132',
+}
+SVN_DIR_NAME = '%s年辽宁移动系统升级_%s月_01'
 
 # ================================================= #
 # ******************** 其他配置 ******************** #

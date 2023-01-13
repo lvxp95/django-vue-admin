@@ -1,8 +1,40 @@
 [
     {
+        "name": "项目管理",
+        "icon": "archive",
+        "sort": 1,
+        "is_link": false,
+        "is_catalog": true,
+        "web_path": "",
+        "component": "",
+        "component_name": "",
+        "status": true,
+        "cache": false,
+        "visible": true,
+        "parent": null,
+        "children": [
+            {
+                "name": "上线版本统计",
+                "icon": "area-chart",
+                "sort": 1,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/api/project/online_version",
+                "component": "project/OnlineVersion/index",
+                "component_name": "online_version",
+                "status": true,
+                "cache": false,
+                "visible": true,
+                "parent": 290,
+                "children": []
+            }
+        ],
+        "menu_button": []
+    },
+    {
         "name": "系统管理",
         "icon": "cog",
-        "sort": 1,
+        "sort": 2,
         "is_link": false,
         "is_catalog": true,
         "web_path": "",
@@ -204,7 +236,7 @@
             {
                 "name": "用户管理",
                 "icon": "users",
-                "sort": 6,
+                "sort": 5,
                 "is_link": false,
                 "is_catalog": false,
                 "web_path": "/user",
@@ -275,7 +307,7 @@
             {
                 "name": "消息中心",
                 "icon": "bullhorn",
-                "sort": 7,
+                "sort": 6,
                 "is_link": false,
                 "is_catalog": false,
                 "web_path": "/messageCenter",
@@ -365,6 +397,65 @@
                         "method": 3
                     }
                 ]
+            },
+            {
+                "name": "员工管理",
+                "icon": "address-card",
+                "sort": 7,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/employee",
+                "component": "system/employee/index",
+                "component_name": "employee",
+                "status": true,
+                "cache": false,
+                "visible": true,
+                "parent": 277,
+                "children": [],
+                "menu_button": [
+                    {
+                        "name": "查询",
+                        "value": "Search",
+                        "api": "/api/system/employee/",
+                        "method": 0
+                    },
+                    {
+                        "name": "详情",
+                        "value": "Retrieve",
+                        "api": "/api/system/employee/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "新增",
+                        "value": "Create",
+                        "api": "/api/system/employee/",
+                        "method": 1
+                    },
+                    {
+                        "name": "导出",
+                        "value": "Export",
+                        "api": "/api/system/employee/export/",
+                        "method": 1
+                    },
+                    {
+                        "name": "导入",
+                        "value": "Import",
+                        "api": "/api/system/employee/import/",
+                        "method": 1
+                    },
+                    {
+                        "name": "编辑",
+                        "value": "Update",
+                        "api": "/api/system/employee/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "删除",
+                        "value": "Delete",
+                        "api": "/api/system/employee/{id}/",
+                        "method": 3
+                    }
+                ]
             }
         ],
         "menu_button": []
@@ -372,7 +463,7 @@
     {
         "name": "常规配置",
         "icon": "cogs",
-        "sort": 2,
+        "sort": 3,
         "is_link": false,
         "is_catalog": true,
         "web_path": "",
@@ -571,7 +662,7 @@
     {
         "name": "日志管理",
         "icon": "book",
-        "sort": 3,
+        "sort": 4,
         "is_link": false,
         "is_catalog": true,
         "web_path": "",

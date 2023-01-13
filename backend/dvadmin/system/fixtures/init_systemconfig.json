@@ -13,23 +13,23 @@
         "setting": null,
         "children": [
             {
-                "parent": 10,
-                "title": "开启验证码",
-                "key": "captcha_state",
-                "value": true,
-                "sort": 1,
-                "status": true,
-                "data_options": null,
-                "form_item_type": 9,
-                "rule": [
-                    {
-                        "message": "必填项不能为空",
-                        "required": true
-                    }
-                ],
-                "placeholder": "请选择",
-                "setting": null,
-                "children": []
+              "parent": 10,
+              "title": "开启验证码",
+              "key": "captcha_state",
+              "value": false,
+              "sort": 1,
+              "status": true,
+              "data_options": null,
+              "form_item_type": 9,
+              "rule": [
+                {
+                  "message": "必填项不能为空",
+                  "required": true
+                }
+              ],
+              "placeholder": "请选择",
+              "setting": null,
+              "children": []
             },
             {
                 "parent": 10,
@@ -65,61 +65,61 @@
         "placeholder": null,
         "setting": null,
         "children": [
-            {
-                "parent": 1,
-                "title": "网站名称",
-                "key": "site_name",
-                "value": "企业级后台管理系统",
-                "sort": 1,
-                "status": true,
-                "data_options": null,
-                "form_item_type": 0,
-                "rule": [
-                    {
-                        "message": "必填项不能为空",
-                        "required": true
-                    }
-                ],
-                "placeholder": "请输入网站名称",
-                "setting": null,
-                "children": []
-            },
-            {
-                "parent": 1,
-                "title": "登录网站logo",
-                "key": "site_logo",
-                "value": null,
-                "sort": 2,
-                "status": true,
-                "data_options": null,
-                "form_item_type": 7,
-                "rule": [],
-                "placeholder": "请上传网站logo",
-                "setting": null,
-                "children": []
-            },
-            {
-                "parent": 1,
-                "title": "登录页背景图",
-                "key": "login_background",
-                "value": null,
-                "sort": 3,
-                "status": true,
-                "data_options": null,
-                "form_item_type": 7,
-                "rule": [],
-                "placeholder": "请上传登录背景页",
-                "setting": null,
-                "children": []
-            },
-            {
-                "parent": 1,
-                "title": "版权信息",
-                "key": "copyright",
-                "value": "2021-2022 django-vue-admin.com 版权所有",
-                "sort": 4,
-                "status": true,
-                "data_options": null,
+          {
+            "parent": 1,
+            "title": "网站名称",
+            "key": "site_name",
+            "value": "云测试管理平台",
+            "sort": 1,
+            "status": true,
+            "data_options": null,
+            "form_item_type": 0,
+            "rule": [
+              {
+                "message": "必填项不能为空",
+                "required": true
+              }
+            ],
+            "placeholder": "请输入网站名称",
+            "setting": null,
+            "children": []
+          },
+          {
+            "parent": 1,
+            "title": "登录网站logo",
+            "key": "site_logo",
+            "value": null,
+            "sort": 2,
+            "status": true,
+            "data_options": null,
+            "form_item_type": 7,
+            "rule": [],
+            "placeholder": "请上传网站logo",
+            "setting": null,
+            "children": []
+          },
+          {
+            "parent": 1,
+            "title": "登录页背景图",
+            "key": "login_background",
+            "value": null,
+            "sort": 3,
+            "status": true,
+            "data_options": null,
+            "form_item_type": 7,
+            "rule": [],
+            "placeholder": "请上传登录背景页",
+            "setting": null,
+            "children": []
+          },
+          {
+            "parent": 1,
+            "title": "版权信息",
+            "key": "copyright",
+            "value": "2021-2022 django-vue-admin.com 版权所有",
+            "sort": 4,
+            "status": true,
+            "data_options": null,
                 "form_item_type": 0,
                 "rule": [
                     {
