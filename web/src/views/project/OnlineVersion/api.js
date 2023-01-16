@@ -1,6 +1,6 @@
 import { request } from '@/api/service'
 
-export const urlPrefix = '/api/project/online_version/'
+export const urlPrefix = '/api/project/online/'
 
 export function getFileData () {
   return request({

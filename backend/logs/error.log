@@ -1886,3 +1886,285 @@ Traceback (most recent call last):
     raise Http404
 django.http.response.Http404
 
+[2023-01-14 22:24:54,897][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 87, in search_by_online_version
+    url = '%(year)s年辽宁移动系统升级_%(month)月_01/%(year)s年辽宁移动系统升级_%(month)s_%(version_number)s.xlsx' % setting
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ValueError: unsupported format character '?' (0x6708) at index 26
+
+[2023-01-14 22:25:30,809][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 87, in search_by_online_version
+    url = '%(year)s年辽宁移动系统升级_%(month)月_01/%(year)s年辽宁移动系统升级_%(month)s_%(version_number)s.xlsx' % setting
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ValueError: unsupported format character '?' (0x6708) at index 26
+
+[2023-01-14 22:42:12,748][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 87, in search_by_online_version
+    url = '%(year)s年辽宁移动系统升级_%(month)月_01/%(year)s年辽宁移动系统升级_%(month)s_%(version_number)s.xlsx' % setting
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ValueError: unsupported format character '?' (0x6708) at index 26
+
+[2023-01-14 22:47:33,286][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 87, in search_by_online_version
+    url = '%(year)s年辽宁移动系统升级_%(month)s月_01/%(year)s年辽宁移动系统升级_%(month)s_%(version_number)s.xlsx' % setting
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ValueError: unsupported format character '?' (0x6708) at index 26
+
+[2023-01-15 12:33:20,353][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 143, in search_by_online_version
+    request.data = get_employee_info_data(setting['dist']+'\\'+file_name, online_version)
+    ^^^^^^^^^^^^
+AttributeError: property 'data' of 'Request' object has no setter
+
+[2023-01-15 12:36:36,223][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 144, in search_by_online_version
+    request.data = data
+    ^^^^^^^^^^^^
+AttributeError: property 'data' of 'Request' object has no setter
+
+[2023-01-15 13:33:22,610][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 170, in search_by_online_version
+    data = get_employee_info_data(setting['dist'] + '\\' + file_name, online_version)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 79, in get_employee_info_data
+    'notes': sheet['AC%d' % (i + 28)].value,
+             ~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'Sheet' object is not subscriptable
+
+[2023-01-15 13:36:42,437][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 171, in search_by_online_version
+    request.data = []
+    ^^^^^^^^^^^^
+AttributeError: property 'data' of 'Request' object has no setter
+
+[2023-01-15 13:43:16,006][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 145, in search_by_online_version
+    print()
+AttributeError: property 'data' of 'Request' object has no setter
+
+[2023-01-15 13:55:20,012][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 149, in search_by_online_version
+    serializer.save()
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 699, in save
+    {**attrs, **kwargs} for attrs in self.validated_data
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 264, in validated_data
+    raise AssertionError(msg)
+AssertionError: You must call `.is_valid()` before accessing `.validated_data`.
+
+[2023-01-15 14:09:19,243][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 939, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.manager.BaseManager._get_queryset_methods.<locals>.create_method.<locals>.manager_method() argument after ** must be a mapping, not list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 140, in search_by_online_version
+    serializer.create(data)
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 958, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `BPMOnline.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `BPMOnline.objects.create()`. You may need to make the field read-only, or override the BPMOnlineCreateUpdateSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 939, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.manager.BaseManager._get_queryset_methods.<locals>.create_method.<locals>.manager_method() argument after ** must be a mapping, not list
+
+
+[2023-01-15 14:10:01,459][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 144, in search_by_online_version
+    serializer.save()
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 173, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+
+[2023-01-15 14:11:29,224][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 143, in search_by_online_version
+    serializer.is_valid(raise_exception=False)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 213, in is_valid
+    assert hasattr(self, 'initial_data'), (
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+
+[2023-01-15 14:12:38,560][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 939, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.manager.BaseManager._get_queryset_methods.<locals>.create_method.<locals>.manager_method() argument after ** must be a mapping, not list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 140, in search_by_online_version
+    serializer.create(data)
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 958, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `BPMOnline.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `BPMOnline.objects.create()`. You may need to make the field read-only, or override the BPMOnlineCreateUpdateSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 939, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.manager.BaseManager._get_queryset_methods.<locals>.create_method.<locals>.manager_method() argument after ** must be a mapping, not list
+
+
+[2023-01-15 14:13:49,813][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 144, in search_by_online_version
+    serializer.save()
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 177, in save
+    assert not self.errors, (
+AssertionError: You cannot call `.save()` on a serializer with invalid data.
+
+[2023-01-15 22:49:56,395][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 219, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 100, in get_employee_info_data
+    t_online_statistics_162.append(get_statistics_data(t_dct, dev_environment_162, test_environment_162))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 32, in get_statistics_data
+    online_version_dct = {'system': online_data['system'], 'count': 0, 'undeveloped': 0, 'unpublished': 0,
+                                    ~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'system'
+
+[2023-01-15 23:15:59,888][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 221, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 102, in get_employee_info_data
+    value = get_statistics_data(t_dct, dev_environment_143, test_environment_143)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_statistics_data() missing 1 required positional argument: 'test_result'
+
+[2023-01-16 00:28:47,110][daphne.server.application_checker():290] [ERROR] Exception inside application: [Errno 22] Invalid argument
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\consumer.py", line 73, in dispatch
+    await handler(message)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\channels\generic\websocket.py", line 238, in websocket_disconnect
+    await self.disconnect(message["code"])
+  File "F:\MyPyCode\django-vue-admin\backend\application\websocketConfig.py", line 87, in disconnect
+    print("连接关闭")
+OSError: [Errno 22] Invalid argument
+[2023-01-16 10:43:56,211][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 184, in search_by_online_version
+    self.get_queryset().filter(onlineversion=online_version).delete()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\sql\query.py", line 1391, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\sql\query.py", line 1410, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\sql\query.py", line 1284, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\sql\query.py", line 1110, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\django\db\models\sql\query.py", line 1537, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'onlineversion' into field. Choices are: bureau_manager, demand_complexity, demand_manager, demand_number, demand_source, demand_type, development_group_leader, development_manager, equest_number, id, notes, oft_development, oft_test_result, ost_development, ost_test_result, requirements, systems, tester, version_number
+

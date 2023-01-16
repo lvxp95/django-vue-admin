@@ -179,7 +179,7 @@ class MenuViewSet(CustomModelViewSet):
         data = serializer.data
         return SuccessResponse(data=data, total=len(data), msg="获取成功")
 
-    def list(self,request):
+    def list(self, request):
         """懒加载"""
         params = request.query_params
         parent = params.get('parent', None)

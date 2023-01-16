@@ -7,48 +7,134 @@
 @Date    ：2022/12/3 20:48
 """
 import os
+from application import settings
+import xlrd
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
-from application import settings
-from dvadmin.project.models import OnlineVersionStatistics
+from dvadmin.project.models import Online
 from dvadmin.utils.json_response import SuccessResponse
 from dvadmin.utils.serializers import CustomModelSerializer
 from dvadmin.utils.viewset import CustomModelViewSet
-import openpyxl
 
 svn_settings = settings.SVN_SETTINGS
 svn_dir_name = settings.SVN_DIR_NAME
 
 
-class OnlineVersionSerializer(CustomModelSerializer):
+def get_statistics_data(online_data, online_version_dct, development, test_result):
+    online_version_dct['count'] += 1
+    if online_data[test_result] == '未开发完毕':
+        online_version_dct['undeveloped'] += 1
+    elif online_data[development] == '未发布' and online_data[test_result] == '未测试':
+        online_version_dct['unpublished'] += 1
+    elif online_data[test_result] in ["产品未配置", "开通未配置", "计费未配置", "其他未配置"]:
+        online_version_dct['not_configured'] += 1
+    elif online_data[test_result] == '需求未确认':
+        online_version_dct['demand_not_confirmed'] += 1
+    elif online_data[test_result] == '阻塞':
+        online_version_dct['block'] += 1
+    elif online_data[test_result] == '联调中':
+        online_version_dct['joint_commissioning'] += 1
+    elif online_data[development] in ["已发布", "无需发布"] and online_data[test_result] == '未测试':
+        online_version_dct['not_tested'] += 1
+    elif online_data[development] in ["已发布", "无需发布"] and online_data[test_result] == '测试中':
+        online_version_dct['under_test'] += 1
+    elif online_data[test_result] == '通过':
+        online_version_dct['test_pass'] += 1
+    elif online_data[test_result] == '不通过':
+        online_version_dct['test_fail'] += 1
+    elif online_data[development] == "已发布" and online_data[test_result] in ["已修复待发布", "已修复待验证"]:
+        online_version_dct['fixed'] += 1
+    elif online_data[test_result] == '通过（无法测试）':
+        online_version_dct['unable_to_test'] += 1
+    elif online_data[test_result] == '暂不上线':
+        online_version_dct['not_online_temporarily'] += 1
+    elif online_data[test_result] == '已经上线':
+        online_version_dct['already_online'] += 1
+    return online_version_dct
+
+
+def get_employee_info_data(file_path, version_number):
+    dev_environment_162 = 'ost_development'
+    test_environment_162 = 'ost_test_result'
+    dev_environment_143 = 'oft_development'
+    test_environment_143 = 'oft_test_result'
+    employee_data = []
+    t_online_statistics_162 = []
+    t_online_statistics_143 = []
+    systems = []
+    work_book = xlrd.open_workbook(file_path)
+    sheet = work_book.sheet_by_name('上线清单')
+    for i in range(1, sheet.nrows):
+        t_dct = {
+            'equest_number': sheet.cell(i, 1).value,
+            'demand_number': sheet.cell(i, 2).value,
+            'systems': sheet.cell(i, 3).value,
+            'requirements': sheet.cell(i, 4).value,
+            'demand_type': sheet.cell(i, 5).value,
+            'demand_source': sheet.cell(i, 6).value,
+            'bureau_manager': sheet.cell(i, 7).value,
+            'demand_complexity': sheet.cell(i, 8).value,
+            'demand_manager': sheet.cell(i, 9).value,
+            'development_manager': sheet.cell(i, 14).value,
+            'development_group_leader': sheet.cell(i, 15).value,
+            'tester': sheet.cell(i, 16).value,
+            'ost_development': sheet.cell(i, 20).value,
+            'ost_test_result': sheet.cell(i, 21).value,
+            'oft_development': sheet.cell(i, 22).value,
+            'oft_test_result': sheet.cell(i, 23).value,
+            'notes': sheet.cell(i, 8).value,
+            'version_number': version_number,
+        }
+        if t_dct['systems'] not in systems:
+            systems.append(t_dct['systems'])
+            online_version_dct_162 = {'system': t_dct['systems'], 'count': 0, 'undeveloped': 0, 'unpublished': 0,
+                                      'not_configured': 0, 'demand_not_confirmed': 0, 'block': 0,
+                                      'joint_commissioning': 0,
+                                      'not_tested': 0, 'under_test': 0, 'test_pass': 0, 'test_fail': 0, 'fixed': 0,
+                                      'unable_to_test': 0, 'not_online_temporarily': 0, 'already_online': 0}
+            online_version_dct_143 = online_version_dct_162.copy()
+            t_online_statistics_162.append(online_version_dct_162)
+            t_online_statistics_143.append(online_version_dct_143)
+        else:
+            online_version_dct_162 = [online_version_dct for online_version_dct in t_online_statistics_162
+                                      if online_version_dct['system'] == t_dct['systems']][0]
+            online_version_dct_143 = [online_version_dct for online_version_dct in t_online_statistics_143
+                                      if online_version_dct['system'] == t_dct['systems']][0]
+
+        dct = get_statistics_data(t_dct, online_version_dct_162, dev_environment_162, test_environment_162)
+        index = [index for index, dct in enumerate(t_online_statistics_162) if dct['system'] == t_dct['systems']][0]
+        t_online_statistics_162[index] = dct
+        dct = get_statistics_data(t_dct, online_version_dct_143, dev_environment_143, test_environment_143)
+        index = [index for index, dct in enumerate(t_online_statistics_143) if dct['system'] == t_dct['systems']][0]
+        t_online_statistics_143[index] = dct
+        employee_data.append(t_dct)
+
+    return employee_data, t_online_statistics_162, t_online_statistics_143
+
+
+class OnlineSerializer(CustomModelSerializer):
     """
     上线版本序列化器
     """
 
     class Meta:
-        model = OnlineVersionStatistics
+        model = Online
         fields = "__all__"
-        # fields = ["online_version"]
+        read_only_fields = ['id']
 
 
-# class CrudDemoModelCreateUpdateSerializer(CustomModelSerializer):
-#     """
-#     创建/更新时的列化器
-#     """
-#     print("上线版本创建/更新时序列化器")
-#
-#     class Meta:
-#         model = OnlineVersion
-#         fields = '__all__'
+class OnlineCreateUpdateSerializer(CustomModelSerializer):
+    """
+    创建/更新时的列化器
+    """
+    print("上线版本创建/更新时序列化器")
+
+    class Meta:
+        model = Online
+        fields = '__all__'
 
 
-def checkout():
-    cmd = 'svn export %(url)s %(dist)s --username %(user)s --password %(pwd)s' % svn_settings
-    print("execute %s" % cmd)
-    return os.system(cmd)
-
-
-class OnlineVersionViewSet(CustomModelViewSet):
+class OnlineViewSet(CustomModelViewSet):
     """
     list:查询
     create:新增
@@ -56,13 +142,8 @@ class OnlineVersionViewSet(CustomModelViewSet):
     retrieve:单例
     destroy:删除
     """
-
-    # os.chdir(svn_settings['svn'])
-    # checkout()
-    queryset = OnlineVersionStatistics.objects.filter(online_version='2021-10-26')  # 指明该视图集在查询数据时使用的查询集
-    serializer_class = OnlineVersionSerializer  # 指明该视图在记性序列化或者反序列化时使用的序列化器
-    filter_fields = ['online_version']
-    search_fields = ['equest_number']
+    queryset = Online.objects.all()  # 指明该视图集在查询数据时使用的查询集
+    serializer_class = OnlineSerializer  # 指明该视图在记性序列化或者反序列化时使用的序列化器
 
     @action(methods=["POST"], detail=False, permission_classes=[IsAuthenticated])
     def select_version_number(self, request):
@@ -80,22 +161,30 @@ class OnlineVersionViewSet(CustomModelViewSet):
 
     @action(methods=["POST"], detail=False, permission_classes=[IsAuthenticated])
     def search_by_online_version(self, request):
+        # 设置svn语句
         year = request.data['yearMonth'].split('-')[0]
         month = request.data['yearMonth'].split('-')[1]
         version_number = request.data['versionNumber']
-        setting = {'year': year, 'month': month, 'version_number': version_number}
-        url = '%(year)s年辽宁移动系统升级_%(month)月_01/%(year)s年辽宁移动系统升级_%(month)s_%(version_number)s.xlsx' % setting
+        online_version = request.data['yearMonth'] + '-' + version_number
+        setting = {'year': year, 'month': month, 'version_number': str(version_number)}
+        file_path = '%(year)s年辽宁移动系统升级_%(month)s月_01/' % setting
+        file_name = '%(year)s年辽宁移动系统升级_%(month)s_%(version_number)s.xlsx' % setting
+        url = file_path + file_name
         setting = svn_settings.copy()
         setting['url'] += url
-        print(svn_settings['url'])
-        print(setting['url'])
         setting['dist'] = os.getcwd() + '\static\svn_file'
-        os.system('svn export %(url)s %(dist)s --username %(user)s --password %(pwd)s' % setting)
 
+        # 从svn检查文件
+        cmd = 'svn export %(url)s %(dist)s --username %(user)s --password %(pwd)s' % setting
+        os.system(cmd)
 
-        data = {}
-        return SuccessResponse(data=data)
-
-    @action(methods=["GET"], detail=False, permission_classes=[])
-    def count_by_online_version(self, request):
-        value = "count_by_online_version"
+        # 获取上线清单内容和统计数据
+        data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                                                        file_name, online_version)
+        self.get_queryset().filter(version_number=online_version).delete()
+        serializer_class = self.get_serializer_class()
+        serializer = serializer_class(data=data, many=True)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        os.remove(setting['dist'] + '\\' + file_name)
+        return SuccessResponse(data=t_online_statistics_162, total=len(data), msg="获取成功")

@@ -29,11 +29,9 @@
               <table class="table">
                 <thead>
                 <tr>
-                  <th>状态</th>
                   <th :key="index" v-for="(item, index) of systems">{{ item }}</th>
                 </tr>
                 </thead>
-                <!--              <transition-group name="table-tbody">-->
                 <tr :key="index" v-for="(item, index) of dataList">
                   <td>{{ titleList[index] }}</td>
                   <td>{{ item[0] }}</td>
@@ -61,7 +59,6 @@ import { Message } from 'element-ui'
 export default {
   name: 'online_version',
   mounted () {
-    this.initLineRace1()
   },
   data () {
     return {
@@ -74,19 +71,33 @@ export default {
     }
   },
   methods: {
-    initLineRace1 () {
-      // 在这设置图表option
-      const lineRace1 = echarts.init(document.querySelector('.box-content-left'))
-      api
-        .getFileData()
-        .then((res) => {
+    dateOfSelection (val) {
+      this.version_num_ls = []
+      if (val != null) {
+        return api.selectVersionNumber(val).then(res => {
+          const { data } = res.data
+          this.version_num_ls = data
+        })
+      }
+    },
+    query () {
+      if (this.year_month === '' || this.year_month === null || this.version_number === '') {
+        Message({
+          message: '年月与批次号不能为空',
+          type: 'error',
+          duration: 5 * 1000
+        })
+      } else {
+        return api.searchByOnlineVersion({ yearMonth: this.year_month, versionNumber: this.version_number }).then((res) => {
+          const lineRace1 = echarts.init(document.querySelector('.box-content-left'))
           this.data = res.data.data
-          const dataList = new Array(16)
+          const dataList = new Array(15)
           for (let i = 0; i < dataList.length; ++i) {
             dataList[i] = []
           }
+          this.systems = ['状态']
           this.data.forEach((val) => {
-            this.systems.push(val.systems)
+            this.systems.push(val.system)
             dataList[0].push(val.count)
             dataList[1].push(val.undeveloped)
             dataList[2].push(val.unpublished)
@@ -147,26 +158,6 @@ export default {
             series: series
           })
         })
-    },
-    dateOfSelection (val) {
-      this.version_num_ls = []
-      if (val != null) {
-        return api.selectVersionNumber(val).then(res => {
-          const { data } = res.data
-          this.version_num_ls = data
-        })
-      }
-    },
-    query () {
-      if (this.year_month === '' || this.year_month === null || this.version_number === '') {
-        // console.log()
-        Message({
-          message: '年月与批次号不能为空',
-          type: 'error',
-          duration: 5 * 1000
-        })
-      } else {
-        return api.searchByOnlineVersion({ yearMonth: this.year_month, versionNumber: this.version_number })
       }
     }
   }
@@ -174,8 +165,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@itemBg: #223651;
-@itemBorder: #212028;
+@itemBg: #FFFFFF;
+@itemBorder: #B1B0B0FF;
 .box {
   margin-top: 20px;
   display: flex;
@@ -183,12 +174,13 @@ export default {
   overflow: hidden;
   &-content {
     width: 100%;
+    height: 45%;
     margin-top: 20px;
     display: flex;
     flex-flow: row;
     &-left {
       height: 400px;
-      width: 70%;
+      width: 60%;
       color: white;
       display: flex;
       flex-flow: column;
@@ -205,8 +197,9 @@ export default {
 }
 .table {
   width: 100%;
+  font-size: 16px;
   background: @itemBg;
-  color: white;
+  color: #5f6166;
   border: 0 solid @itemBorder;
   border-top: none;
   border-spacing: 0;

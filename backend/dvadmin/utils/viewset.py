@@ -70,7 +70,7 @@ class CustomModelViewSet(ModelViewSet,ImportSerializerMixin,ExportSerializerMixi
             return serializer_class(*args, **kwargs)
 
     def create(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data, request=request)
+        serializer = self.get_serializer(data=request.data, request=request, )
         serializer.is_valid(raise_exception=True)
         self.perform_create(serializer)
         return DetailResponse(data=serializer.data, msg="新增成功")

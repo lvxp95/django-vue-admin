@@ -116,6 +116,7 @@ export default {
       that.upload.isUploading = false
       that.loading = true
       that.$refs.upload.clearFiles()
+      console.log(response.data.url)
       // 是否更新已经存在的用户数据
       return request({
         url: util.baseURL() + that.api + 'import_data/',
