@@ -8639,3 +8639,1246 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'onlineversion' into f
 [2023-01-16 14:15:15,808][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:11868]
 [2023-01-16 14:15:42,425][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.53, 127.0.0.1:11822]
 [2023-01-16 14:16:03,056][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.43, 127.0.0.1:11822]
+[2023-01-16 14:19:49,764][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:11868]
+[2023-01-16 14:19:51,034][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:12122]
+[2023-01-16 14:19:51,063][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.05, 127.0.0.1:12123]
+[2023-01-16 14:19:51,093][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12123]
+[2023-01-16 14:19:51,111][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:12122]
+[2023-01-16 14:19:51,146][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.07, 127.0.0.1:12131]
+[2023-01-16 14:19:51,243][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12141]
+[2023-01-16 14:19:51,246][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12141]
+[2023-01-16 14:19:53,767][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.11, 127.0.0.1:12131]
+[2023-01-16 14:20:02,427][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [7.00, 127.0.0.1:12131]
+[2023-01-16 14:20:51,780][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [6.76, 127.0.0.1:12131]
+[2023-01-16 14:22:51,277][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12141]
+[2023-01-16 14:22:52,864][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:12544]
+[2023-01-16 14:22:52,877][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:12543]
+[2023-01-16 14:22:52,897][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12544]
+[2023-01-16 14:22:52,910][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:12552]
+[2023-01-16 14:22:52,942][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:12543]
+[2023-01-16 14:22:53,038][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12561]
+[2023-01-16 14:22:53,040][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12561]
+[2023-01-16 14:22:55,252][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:12543]
+[2023-01-16 14:23:01,436][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.34, 127.0.0.1:12543]
+[2023-01-16 14:23:48,158][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12561]
+[2023-01-16 14:23:49,842][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:12543]
+[2023-01-16 14:23:49,863][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:12552]
+[2023-01-16 14:23:49,898][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12552]
+[2023-01-16 14:23:49,932][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:12544]
+[2023-01-16 14:23:49,942][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.07, 127.0.0.1:12543]
+[2023-01-16 14:23:50,025][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12653]
+[2023-01-16 14:23:50,027][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12653]
+[2023-01-16 14:23:51,761][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.10, 127.0.0.1:12543]
+[2023-01-16 14:23:57,430][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.04, 127.0.0.1:12543]
+[2023-01-16 14:27:00,009][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12653]
+[2023-01-16 14:27:01,605][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:12968]
+[2023-01-16 14:27:01,633][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:12969]
+[2023-01-16 14:27:01,663][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12969]
+[2023-01-16 14:27:01,676][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:12968]
+[2023-01-16 14:27:01,710][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:12977]
+[2023-01-16 14:27:01,809][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12987]
+[2023-01-16 14:27:01,811][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12987]
+[2023-01-16 14:27:04,535][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:12977]
+[2023-01-16 14:27:10,569][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.13, 127.0.0.1:12977]
+[2023-01-16 14:29:29,545][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:12987]
+[2023-01-16 14:29:31,238][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:13132]
+[2023-01-16 14:29:31,264][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:13135]
+[2023-01-16 14:29:31,297][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:13135]
+[2023-01-16 14:29:31,313][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:13132]
+[2023-01-16 14:29:31,343][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:13141]
+[2023-01-16 14:29:31,439][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13153]
+[2023-01-16 14:29:31,440][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13153]
+[2023-01-16 14:29:33,481][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.22, 127.0.0.1:13141]
+[2023-01-16 14:29:39,842][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.13, 127.0.0.1:13141]
+[2023-01-16 14:30:16,125][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13153]
+[2023-01-16 14:30:17,476][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:13141]
+[2023-01-16 14:30:17,497][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:13132]
+[2023-01-16 14:30:17,526][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:13132]
+[2023-01-16 14:30:17,561][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:13135]
+[2023-01-16 14:30:17,570][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.06, 127.0.0.1:13141]
+[2023-01-16 14:30:17,654][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13229]
+[2023-01-16 14:30:17,656][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13229]
+[2023-01-16 14:30:19,576][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:13141]
+[2023-01-16 14:30:25,929][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.09, 127.0.0.1:13141]
+[2023-01-16 14:31:42,002][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13229]
+[2023-01-16 14:31:43,400][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:13337]
+[2023-01-16 14:31:43,425][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:13340]
+[2023-01-16 14:31:43,470][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:13340]
+[2023-01-16 14:31:43,484][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:13337]
+[2023-01-16 14:31:43,519][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.07, 127.0.0.1:13346]
+[2023-01-16 14:31:43,613][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13355]
+[2023-01-16 14:31:43,615][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13355]
+[2023-01-16 14:31:52,426][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:13346]
+[2023-01-16 14:31:59,533][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.34, 127.0.0.1:13346]
+[2023-01-16 14:33:45,933][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13355]
+[2023-01-16 14:33:47,290][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:13481]
+[2023-01-16 14:33:47,311][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:13482]
+[2023-01-16 14:33:47,335][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:13482]
+[2023-01-16 14:33:47,349][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:13481]
+[2023-01-16 14:33:47,383][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:13490]
+[2023-01-16 14:33:47,480][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13499]
+[2023-01-16 14:33:47,481][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13499]
+[2023-01-16 14:33:50,255][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:13490]
+[2023-01-16 14:33:57,074][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.35, 127.0.0.1:13490]
+[2023-01-16 14:35:47,496][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13499]
+[2023-01-16 14:35:48,829][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:13650]
+[2023-01-16 14:35:48,850][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:13653]
+[2023-01-16 14:35:48,878][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:13653]
+[2023-01-16 14:35:48,890][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:13650]
+[2023-01-16 14:35:48,924][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:13659]
+[2023-01-16 14:35:49,016][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13673]
+[2023-01-16 14:35:49,019][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13673]
+[2023-01-16 14:35:50,988][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:13659]
+[2023-01-16 14:35:56,911][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.03, 127.0.0.1:13659]
+[2023-01-16 14:50:13,653][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:13673]
+[2023-01-16 14:50:15,249][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:14579]
+[2023-01-16 14:50:15,272][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:14581]
+[2023-01-16 14:50:15,298][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:14581]
+[2023-01-16 14:50:15,317][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:14579]
+[2023-01-16 14:50:15,348][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.07, 127.0.0.1:14588]
+[2023-01-16 14:50:15,448][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:14597]
+[2023-01-16 14:50:15,450][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:14597]
+[2023-01-16 14:50:19,214][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.21, 127.0.0.1:14588]
+[2023-01-16 14:50:25,891][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.46, 127.0.0.1:14588]
+[2023-01-16 14:51:02,817][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.10, 127.0.0.1:14588]
+[2023-01-16 14:51:10,240][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:14597]
+[2023-01-16 14:51:11,843][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:14588]
+[2023-01-16 14:51:11,864][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:14579]
+[2023-01-16 14:51:11,899][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:14579]
+[2023-01-16 14:51:11,930][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:14581]
+[2023-01-16 14:51:11,947][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.06, 127.0.0.1:14588]
+[2023-01-16 14:51:12,036][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:14682]
+[2023-01-16 14:51:12,039][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:14682]
+[2023-01-16 14:51:13,622][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:14588]
+[2023-01-16 14:51:19,848][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.11, 127.0.0.1:14588]
+[2023-01-16 15:05:57,009][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.36, 127.0.0.1:1426]
+[2023-01-16 15:06:04,462][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:14682]
+[2023-01-16 15:06:06,060][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:1426]
+[2023-01-16 15:06:06,080][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:1474]
+[2023-01-16 15:06:06,112][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:1474]
+[2023-01-16 15:06:06,122][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:1426]
+[2023-01-16 15:06:06,156][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:1480]
+[2023-01-16 15:06:06,252][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1489]
+[2023-01-16 15:06:06,254][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1489]
+[2023-01-16 15:06:08,644][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.20, 127.0.0.1:1480]
+[2023-01-16 15:06:15,095][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.12, 127.0.0.1:1480]
+[2023-01-16 15:12:02,160][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1489]
+[2023-01-16 15:12:02,762][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:1614]
+[2023-01-16 15:12:02,779][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:1617]
+[2023-01-16 15:12:02,809][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:1617]
+[2023-01-16 15:12:02,820][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:1614]
+[2023-01-16 15:12:02,854][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.07, 127.0.0.1:1623]
+[2023-01-16 15:12:02,921][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1632]
+[2023-01-16 15:12:02,923][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1632]
+[2023-01-16 15:12:07,859][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1632]
+[2023-01-16 15:12:08,272][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:1623]
+[2023-01-16 15:12:08,299][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:1614]
+[2023-01-16 15:12:08,332][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:1614]
+[2023-01-16 15:12:08,368][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:1617]
+[2023-01-16 15:12:08,379][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.06, 127.0.0.1:1623]
+[2023-01-16 15:12:08,435][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1657]
+[2023-01-16 15:12:08,437][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1657]
+[2023-01-16 15:12:50,257][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.09, 127.0.0.1:1623]
+[2023-01-16 15:12:56,542][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.20, 127.0.0.1:1623]
+[2023-01-16 15:14:29,832][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.12, 127.0.0.1:1700]
+[2023-01-16 15:14:35,842][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.30, 127.0.0.1:1700]
+[2023-01-16 15:16:49,229][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 15:16:51,274][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 15:16:52,940][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 15:16:52,940][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 15:16:52,942][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 15:17:53,436][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.10, 127.0.0.1:1758]
+[2023-01-16 15:17:59,537][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.27, 127.0.0.1:1758]
+[2023-01-16 15:18:51,804][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 15:18:53,324][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 15:18:54,386][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 15:18:54,386][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 15:18:54,390][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 15:33:47,842][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:1888]
+[2023-01-16 15:33:47,866][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:1889]
+[2023-01-16 15:33:48,025][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.14, 127.0.0.1:1889]
+[2023-01-16 15:33:48,035][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.15, 127.0.0.1:1888]
+[2023-01-16 15:33:48,071][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.19, 127.0.0.1:1897]
+[2023-01-16 15:33:48,139][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1905]
+[2023-01-16 15:33:48,144][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1905]
+[2023-01-16 15:35:44,312][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.27, 127.0.0.1:2009]
+[2023-01-16 15:36:26,124][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.27, 127.0.0.1:2009]
+[2023-01-16 15:36:32,262][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.33, 127.0.0.1:2009]
+[2023-01-16 15:38:36,728][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:1905]
+[2023-01-16 15:38:38,318][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:2166]
+[2023-01-16 15:38:38,331][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:2165]
+[2023-01-16 15:38:38,352][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:2166]
+[2023-01-16 15:38:38,366][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:2174]
+[2023-01-16 15:38:38,399][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:2175]
+[2023-01-16 15:38:38,488][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:2187]
+[2023-01-16 15:38:38,491][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:2187]
+[2023-01-16 15:38:41,639][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.87, 127.0.0.1:2175]
+[2023-01-16 15:38:47,023][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.25, 127.0.0.1:2175]
+[2023-01-16 15:44:27,080][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.23, 127.0.0.1:2363]
+[2023-01-16 15:44:33,210][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.12, 127.0.0.1:2363]
+[2023-01-16 15:54:30,565][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.14, 127.0.0.1:2518]
+[2023-01-16 15:54:36,806][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.18, 127.0.0.1:2518]
+[2023-01-16 15:57:28,619][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.13, 127.0.0.1:2545]
+[2023-01-16 15:58:11,205][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.24, 127.0.0.1:2545]
+[2023-01-16 16:21:28,941][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/select_version_number/ 200 [0.00, 127.0.0.1:2761]
+[2023-01-16 16:21:28,974][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.03, 127.0.0.1:2761]
+[2023-01-16 16:21:29,029][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:2761]
+[2023-01-16 16:21:29,030][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODU2MzE3LCJpYXQiOjE2NzM4NDkxMTcsImp0aSI6IjdhZWI2ZGZiZmQ0YTRjMzM4ODdkNjZjMzk4ZmU2ZGU1IiwidXNlcl9pZCI6MX0.uZfyMHmVMa0QBUNak3pPaa8HXoPtjjkM1dU4KsdL6t8/ [127.0.0.1:2187]
+[2023-01-16 16:21:29,622][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:2761]
+[2023-01-16 16:21:29,644][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:2761]
+[2023-01-16 16:21:29,666][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:2796]
+[2023-01-16 16:21:30,900][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.01, 127.0.0.1:2796]
+[2023-01-16 16:21:30,939][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-16 16:21:42,095][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [11.19, 127.0.0.1:2796]
+[2023-01-16 16:21:42,109][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/user/user_info/ 200 [0.00, 127.0.0.1:2796]
+[2023-01-16 16:21:42,126][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.01, 127.0.0.1:2796]
+[2023-01-16 16:21:42,143][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.00, 127.0.0.1:2796]
+[2023-01-16 16:21:42,182][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.03, 127.0.0.1:2796]
+[2023-01-16 16:21:42,259][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:2834]
+[2023-01-16 16:21:42,262][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:2834]
+[2023-01-16 16:21:51,029][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.21, 127.0.0.1:2796]
+[2023-01-16 16:21:53,083][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/search_by_online_version/ 200 [0.00, 127.0.0.1:2796]
+[2023-01-16 16:21:57,232][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.15, 127.0.0.1:2796]
+[2023-01-16 16:30:07,906][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.10, 127.0.0.1:3254]
+[2023-01-16 16:30:13,942][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.14, 127.0.0.1:3254]
+[2023-01-16 16:31:15,018][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:2834]
+[2023-01-16 16:31:15,595][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:3298]
+[2023-01-16 16:31:15,615][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:3300]
+[2023-01-16 16:31:15,644][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:3300]
+[2023-01-16 16:31:15,677][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:3298]
+[2023-01-16 16:31:15,685][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/dept/all_dept/ 200 [0.06, 127.0.0.1:3308]
+[2023-01-16 16:31:15,702][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.01, 127.0.0.1:3308]
+[2023-01-16 16:31:15,752][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:3320]
+[2023-01-16 16:31:15,756][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:3320]
+[2023-01-16 16:31:17,629][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.10, 127.0.0.1:3308]
+[2023-01-16 16:31:23,726][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.14, 127.0.0.1:3308]
+[2023-01-16 16:41:23,782][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.64, 127.0.0.1:3616]
+[2023-01-16 16:41:25,875][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 16:41:25,887][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.23, 127.0.0.1:3616]
+[2023-01-16 16:41:53,027][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [3.19, 127.0.0.1:3616]
+[2023-01-16 16:42:56,080][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.22, 127.0.0.1:3628]
+[2023-01-16 16:43:18,532][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.10, 127.0.0.1:3628]
+[2023-01-16 16:43:23,760][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.04, 127.0.0.1:3628]
+[2023-01-16 16:43:40,951][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.11, 127.0.0.1:3628]
+[2023-01-16 16:44:09,168][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.24, 127.0.0.1:3628]
+[2023-01-16 16:44:38,493][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.21, 127.0.0.1:3628]
+[2023-01-16 16:44:43,781][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:3320]
+[2023-01-16 16:44:44,375][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:3628]
+[2023-01-16 16:44:44,394][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:3723]
+[2023-01-16 16:44:44,426][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:3723]
+[2023-01-16 16:44:44,460][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:3731]
+[2023-01-16 16:44:44,473][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.07, 127.0.0.1:3628]
+[2023-01-16 16:44:44,534][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:3739]
+[2023-01-16 16:44:44,536][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODY0NDkxLCJpYXQiOjE2NzM4NTcyOTEsImp0aSI6IjM2Y2Q3MTg4NDk5MjQzZTFiNWYwMDIyZDYxYWFmZTdlIiwidXNlcl9pZCI6MX0.QBF9eKObbzNjNXh8OvlSLbxd813QYlxboypfoWlfE28/ [127.0.0.1:3739]
+[2023-01-16 16:44:46,866][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.20, 127.0.0.1:3628]
+[2023-01-16 16:45:01,663][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [12.77, 127.0.0.1:3628]
+[2023-01-16 16:45:12,978][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.10, 127.0.0.1:3628]
+[2023-01-16 16:45:24,594][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.29, 127.0.0.1:3628]
+[2023-01-16 16:47:49,388][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-277' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x22948f09350 method=POST uri=/api/project/online/search_by_online_version/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 16:49:48,400][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-281' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x2294708a1d0 method=POST uri=/api/project/online/search_by_online_version/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 16:52:15,917][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-285' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x22947ce4b50 method=POST uri=/api/project/online/search_by_online_version/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 17:02:02,651][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 17:02:04,292][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 17:02:05,328][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 17:02:05,328][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 17:02:05,330][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 17:02:08,948][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 17:02:10,455][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 17:02:11,491][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 17:02:11,492][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 17:02:11,493][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 17:02:38,123][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [19.61, 127.0.0.1:4800]
+[2023-01-16 17:09:28,380][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-16 17:09:30,046][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 17:09:31,109][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 17:09:31,110][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 17:09:31,112][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 17:11:24,314][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [5.86, 127.0.0.1:4973]
+[2023-01-16 17:13:15,548][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [6.07, 127.0.0.1:5004]
+[2023-01-16 17:13:58,736][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 17:14:00,344][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 17:14:01,379][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 17:14:01,380][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 17:14:01,384][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 17:14:24,721][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [6.59, 127.0.0.1:5025]
+[2023-01-16 17:21:29,644][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 17:21:31,207][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 17:21:32,235][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 17:21:32,235][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 17:21:32,237][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 17:21:43,652][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 17:21:43,663][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.05, 127.0.0.1:5090]
+[2023-01-16 17:23:45,325][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-5' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x1619f558450 method=POST uri=/api/project/online/search_by_online_version/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 17:28:25,394][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 17:28:34,763][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [25.39, 127.0.0.1:5297]
+[2023-01-16 20:15:54,645][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:15:55,475][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:15:55,475][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:15:55,476][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:17:01,484][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:2424]
+[2023-01-16 20:17:01,493][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:2424]
+[2023-01-16 20:17:01,498][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/user/user_info/ 200 [0.01, 127.0.0.1:2428]
+[2023-01-16 20:17:01,606][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.09, 127.0.0.1:2428]
+[2023-01-16 20:17:01,646][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.00, 127.0.0.1:2428]
+[2023-01-16 20:17:02,092][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:2428]
+[2023-01-16 20:17:02,121][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:2428]
+[2023-01-16 20:17:03,688][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:2428]
+[2023-01-16 20:17:03,738][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-16 20:17:04,475][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.78, 127.0.0.1:2428]
+[2023-01-16 20:17:04,489][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.01, 127.0.0.1:2428]
+[2023-01-16 20:17:04,501][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.00, 127.0.0.1:2428]
+[2023-01-16 20:17:04,521][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.02, 127.0.0.1:2428]
+[2023-01-16 20:17:04,601][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:2464]
+[2023-01-16 20:17:04,603][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:2464]
+[2023-01-16 20:17:18,317][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/select_version_number/ 200 [0.00, 127.0.0.1:2492]
+[2023-01-16 20:18:29,034][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-57' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x1ac8d9f9d90 method=POST uri=/api/project/online/select_version_number/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 20:20:11,314][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:2464]
+[2023-01-16 20:20:22,145][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-59' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x1ac8de251d0 method=POST uri=/api/project/online/select_version_number/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 20:20:47,382][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-60' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x1ac8dc84290 method=GET uri=/api/init/dictionary/?dictionary_key=all clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 20:20:47,382][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-61' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x1ac8e06a950 method=GET uri=/api/system/user/user_info/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 20:21:36,505][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:21:37,240][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:21:37,240][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:21:37,241][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:21:40,993][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:2728]
+[2023-01-16 20:21:41,005][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:2731]
+[2023-01-16 20:21:41,015][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/dept/all_dept/ 200 [0.00, 127.0.0.1:2731]
+[2023-01-16 20:21:41,022][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:2728]
+[2023-01-16 20:21:41,036][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.02, 127.0.0.1:2738]
+[2023-01-16 20:21:41,114][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:2749]
+[2023-01-16 20:21:41,131][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.11, 127.0.0.1:2731]
+[2023-01-16 20:21:41,133][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:2749]
+[2023-01-16 20:21:47,420][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [1.14, 127.0.0.1:2731]
+[2023-01-16 20:21:51,721][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/search_by_online_version/ 200 [0.00, 127.0.0.1:2731]
+[2023-01-16 20:21:51,775][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:21:51,781][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.06, 127.0.0.1:2731]
+[2023-01-16 20:22:50,515][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 20:22:51,279][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:22:51,690][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:22:51,690][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:22:51,690][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:22:57,750][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:22:57,756][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.14, 127.0.0.1:2772]
+[2023-01-16 20:23:12,523][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:23:13,491][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:23:13,492][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:23:13,493][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:25:31,758][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:25:53,727][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 20:25:55,119][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:25:56,102][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:25:56,102][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:25:56,102][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:26:27,673][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:26:27,787][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [16.33, 127.0.0.1:2884]
+[2023-01-16 20:28:22,525][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:2906]
+[2023-01-16 20:28:22,540][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:2909]
+[2023-01-16 20:28:22,682][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.13, 127.0.0.1:2909]
+[2023-01-16 20:28:22,691][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.14, 127.0.0.1:2906]
+[2023-01-16 20:28:22,723][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.17, 127.0.0.1:2916]
+[2023-01-16 20:28:22,781][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:2927]
+[2023-01-16 20:28:22,785][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:2927]
+[2023-01-16 20:28:26,579][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.77, 127.0.0.1:2916]
+[2023-01-16 20:29:19,041][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:29:19,053][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [50.76, 127.0.0.1:2916]
+[2023-01-16 20:29:24,641][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 20:29:26,093][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:29:27,055][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:29:27,055][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:29:27,057][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:29:36,527][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:29:36,539][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [3.30, 127.0.0.1:2967]
+[2023-01-16 20:32:34,342][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 20:32:35,813][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:32:36,791][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:32:36,791][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:32:36,799][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:33:03,176][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:33:03,195][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [22.81, 127.0.0.1:3063]
+[2023-01-16 20:35:14,800][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-5' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x16f81505190 method=POST uri=/api/project/online/search_by_online_version/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 20:41:48,504][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:42:08,271][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 20:42:09,680][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:42:10,654][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:42:10,654][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:42:10,656][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:42:15,293][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:42:15,305][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.06, 127.0.0.1:3150]
+[2023-01-16 20:45:13,383][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 20:45:14,830][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 20:45:15,855][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 20:45:15,855][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 20:45:15,857][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 20:45:59,446][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:45:59,456][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.05, 127.0.0.1:3232]
+[2023-01-16 20:49:19,382][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [1.76, 127.0.0.1:3481]
+[2023-01-16 20:50:31,519][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-9' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x2c82324bfd0 method=POST uri=/api/project/online/search_by_online_version/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 21:58:34,247][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 21:58:36,224][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 21:58:37,706][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 21:58:37,706][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 21:58:37,708][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 21:58:44,084][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.48, 127.0.0.1:6071]
+[2023-01-16 21:59:00,169][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 21:59:00,181][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [12.71, 127.0.0.1:6071]
+[2023-01-16 22:00:13,848][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 22:00:13,864][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.19, 127.0.0.1:6120]
+[2023-01-16 22:00:49,793][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-16 22:00:51,330][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 22:00:52,323][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 22:00:52,323][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 22:00:52,325][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 22:00:56,879][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 188, in search_by_online_version
+    serializer.is_valid(raise_exception=True)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 733, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: [{'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}, {'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 193, in search_by_online_version
+    return DetailResponse(data={'162': [], '143': []}, msg="数据校验失败： "+e)
+                                                           ~~~~~~~~~~~~~~~~~~~~~~~~^
+TypeError: can only concatenate str (not "ValidationError") to str
+
+[2023-01-16 22:00:56,889][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.99, 127.0.0.1:6174]
+[2023-01-16 22:03:39,491][daphne.server.application_checker():271] [WARNING] Application instance <Task pending name='Task-5' coro=<StaticFilesWrapper.__call__() running at D:\00-SoftWare\Python3.11\Lib\site-packages\channels\staticfiles.py:44> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at D:\00-SoftWare\Python3.11\Lib\asyncio\futures.py:387, Task.task_wakeup()]>> for connection <WebRequest at 0x213db0f7390 method=POST uri=/api/project/online/search_by_online_version/ clientproto=HTTP/1.1> took too long to shut down and was killed.
+[2023-01-16 22:03:44,817][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-16 22:03:46,914][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 188, in search_by_online_version
+    serializer.is_valid(raise_exception=True)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 733, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: [{'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}, {'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 192, in search_by_online_version
+    os.remove(setting['dist'] + '\\' + file_name)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 22:03:48,303][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-16 22:03:49,295][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-16 22:03:49,295][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-16 22:03:49,297][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-16 22:04:27,760][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:6311]
+[2023-01-16 22:04:27,780][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:6314]
+[2023-01-16 22:04:27,980][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.19, 127.0.0.1:6314]
+[2023-01-16 22:04:27,995][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.21, 127.0.0.1:6311]
+[2023-01-16 22:04:28,029][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.24, 127.0.0.1:6320]
+[2023-01-16 22:04:28,101][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:6330]
+[2023-01-16 22:04:28,105][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:6330]
+[2023-01-16 22:04:49,358][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.53, 127.0.0.1:6320]
+[2023-01-16 22:04:52,413][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 195, in search_by_online_version
+    os.remove(setting['dist'] + '\\' + file_name)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 22:04:52,428][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [1.16, 127.0.0.1:6320]
+[2023-01-16 22:05:49,099][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [1.19, 127.0.0.1:6320]
+[2023-01-16 22:07:35,063][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:6330]
+[2023-01-16 22:07:35,633][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:6426]
+[2023-01-16 22:07:35,649][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:6429]
+[2023-01-16 22:07:35,677][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:6429]
+[2023-01-16 22:07:35,713][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:6437]
+[2023-01-16 22:07:35,722][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.06, 127.0.0.1:6426]
+[2023-01-16 22:07:35,783][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:6444]
+[2023-01-16 22:07:35,785][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:6444]
+[2023-01-16 22:07:38,662][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.30, 127.0.0.1:6426]
+[2023-01-16 22:07:41,227][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.78, 127.0.0.1:6426]
+[2023-01-16 22:20:37,814][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.02, 127.0.0.1:7166]
+[2023-01-16 22:20:37,876][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:7166]
+[2023-01-16 22:20:37,891][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:7166]
+[2023-01-16 22:20:38,146][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODc4NjIzLCJpYXQiOjE2NzM4NzE0MjMsImp0aSI6Ijc5M2Q5MjdkZDE4MTQxZmViMjc5NGU3ZTlmZmVmYzRkIiwidXNlcl9pZCI6MX0.psNgQa4Fl_KnRvyyQ8G1eavih6TwqkRk_EDV0lvESx4/ [127.0.0.1:6444]
+[2023-01-16 22:20:39,672][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:7166]
+[2023-01-16 22:20:39,697][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:7166]
+[2023-01-16 22:20:39,720][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:7193]
+[2023-01-16 22:20:41,126][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:7193]
+[2023-01-16 22:20:41,179][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-16 22:20:41,658][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.53, 127.0.0.1:7193]
+[2023-01-16 22:20:41,668][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/user/user_info/ 200 [0.00, 127.0.0.1:7193]
+[2023-01-16 22:20:41,684][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.01, 127.0.0.1:7193]
+[2023-01-16 22:20:41,700][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.00, 127.0.0.1:7193]
+[2023-01-16 22:20:41,735][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.03, 127.0.0.1:7193]
+[2023-01-16 22:20:41,830][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:7218]
+[2023-01-16 22:20:41,832][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:7218]
+[2023-01-16 22:20:45,559][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/select_version_number/ 200 [0.00, 127.0.0.1:7193]
+[2023-01-16 22:20:46,189][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.63, 127.0.0.1:7193]
+[2023-01-16 22:20:54,124][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [6.70, 127.0.0.1:7228]
+[2023-01-16 22:26:50,510][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.19, 127.0.0.1:7379]
+[2023-01-16 22:26:52,139][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/search_by_online_version/ 200 [0.00, 127.0.0.1:7379]
+[2023-01-16 22:26:57,558][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [5.42, 127.0.0.1:7379]
+[2023-01-16 22:27:45,955][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.38, 127.0.0.1:7405]
+[2023-01-16 22:27:52,961][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [5.62, 127.0.0.1:7405]
+[2023-01-16 22:29:15,943][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.55, 127.0.0.1:7487]
+[2023-01-16 22:29:23,286][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [5.74, 127.0.0.1:7487]
+[2023-01-16 22:30:17,481][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [1.40, 127.0.0.1:7555]
+[2023-01-16 22:30:32,665][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [13.55, 127.0.0.1:7555]
+[2023-01-16 22:35:54,910][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:7218]
+[2023-01-16 22:35:56,508][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:7915]
+[2023-01-16 22:35:56,526][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:7918]
+[2023-01-16 22:35:56,556][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:7918]
+[2023-01-16 22:35:56,562][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:7915]
+[2023-01-16 22:35:56,594][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:7924]
+[2023-01-16 22:35:56,610][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.03, 127.0.0.1:7918]
+[2023-01-16 22:35:56,688][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:7936]
+[2023-01-16 22:35:56,691][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:7936]
+[2023-01-16 22:35:59,702][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.15, 127.0.0.1:7918]
+[2023-01-16 22:36:06,551][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.99, 127.0.0.1:7918]
+[2023-01-16 22:44:38,260][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.29, 127.0.0.1:8059]
+[2023-01-16 22:44:44,435][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.54, 127.0.0.1:8059]
+[2023-01-16 22:45:14,561][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:7936]
+[2023-01-16 22:45:15,127][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:8059]
+[2023-01-16 22:45:15,144][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:8101]
+[2023-01-16 22:45:15,170][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:8101]
+[2023-01-16 22:45:15,184][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:8059]
+[2023-01-16 22:45:15,213][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:8107]
+[2023-01-16 22:45:15,282][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:8117]
+[2023-01-16 22:45:15,284][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:8117]
+[2023-01-16 22:45:19,290][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.14, 127.0.0.1:8107]
+[2023-01-16 22:45:28,899][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [6.83, 127.0.0.1:8107]
+[2023-01-16 22:49:07,420][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.20, 127.0.0.1:8304]
+[2023-01-16 22:49:16,861][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [7.29, 127.0.0.1:8304]
+[2023-01-16 22:51:29,172][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.18, 127.0.0.1:8423]
+[2023-01-16 22:51:39,189][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [7.04, 127.0.0.1:8423]
+[2023-01-16 22:55:50,109][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.35, 127.0.0.1:8600]
+[2023-01-16 22:55:58,730][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [7.07, 127.0.0.1:8600]
+[2023-01-16 22:56:51,465][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:8117]
+[2023-01-16 22:56:52,050][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:8600]
+[2023-01-16 22:56:52,076][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:8657]
+[2023-01-16 22:56:52,116][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.03, 127.0.0.1:8657]
+[2023-01-16 22:56:52,131][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:8600]
+[2023-01-16 22:56:52,165][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.07, 127.0.0.1:8665]
+[2023-01-16 22:56:52,239][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:8673]
+[2023-01-16 22:56:52,240][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:8673]
+[2023-01-16 22:56:54,433][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.13, 127.0.0.1:8665]
+[2023-01-16 22:57:05,039][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [8.65, 127.0.0.1:8665]
+[2023-01-16 22:58:02,292][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.33, 127.0.0.1:8665]
+[2023-01-16 22:58:12,073][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [7.59, 127.0.0.1:8665]
+[2023-01-16 22:59:35,010][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.24, 127.0.0.1:8725]
+[2023-01-16 22:59:45,493][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [7.85, 127.0.0.1:8725]
+[2023-01-16 23:02:08,471][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.13, 127.0.0.1:8825]
+[2023-01-16 23:02:17,644][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [6.85, 127.0.0.1:8825]
+[2023-01-16 23:03:14,111][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODg2MDQxLCJpYXQiOjE2NzM4Nzg4NDEsImp0aSI6IjIzZmI3YmY3ZWRhZTQ0YTI4MTVmM2EwZmM4YjNjZmU4IiwidXNlcl9pZCI6MX0.OdiJB8sbf6ZvV_KPIxZWsoUIYheiQQgmdoFGXL8Lzw8/ [127.0.0.1:8673]
+[2023-01-17 15:11:23,156][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 15:11:24,166][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 15:11:24,166][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 15:11:24,167][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 15:13:31,944][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:6054]
+[2023-01-17 15:13:31,950][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/user/user_info/ 200 [0.01, 127.0.0.1:6057]
+[2023-01-17 15:13:31,965][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:6054]
+[2023-01-17 15:13:31,999][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:6057]
+[2023-01-17 15:13:32,099][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.02, 127.0.0.1:6057]
+[2023-01-17 15:13:32,615][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:6057]
+[2023-01-17 15:13:32,645][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:6057]
+[2023-01-17 15:13:34,003][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:6057]
+[2023-01-17 15:13:34,046][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-17 15:13:55,225][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [21.22, 127.0.0.1:6057]
+[2023-01-17 15:13:55,242][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.01, 127.0.0.1:6057]
+[2023-01-17 15:13:55,257][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.00, 127.0.0.1:6057]
+[2023-01-17 15:13:55,282][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.02, 127.0.0.1:6057]
+[2023-01-17 15:13:55,375][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTQ2ODE0LCJpYXQiOjE2NzM5Mzk2MTQsImp0aSI6IjA1MDRhNWJlN2RmYzQ2OGViZWE2ZjhjN2RhYmM5YjFkIiwidXNlcl9pZCI6MX0.fijn3gb4AIHPL_4--iGRwhjc9HS9-bVXVXlf5l1LWpI/ [127.0.0.1:6138]
+[2023-01-17 15:13:55,376][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTQ2ODE0LCJpYXQiOjE2NzM5Mzk2MTQsImp0aSI6IjA1MDRhNWJlN2RmYzQ2OGViZWE2ZjhjN2RhYmM5YjFkIiwidXNlcl9pZCI6MX0.fijn3gb4AIHPL_4--iGRwhjc9HS9-bVXVXlf5l1LWpI/ [127.0.0.1:6138]
+[2023-01-17 15:16:57,524][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 15:16:58,631][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 15:16:59,069][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 15:16:59,070][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 15:16:59,070][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 15:17:55,331][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 15:17:56,128][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 15:23:03,959][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 15:23:04,806][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 15:23:24,380][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 15:23:25,093][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 15:24:36,964][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 15:24:37,730][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 15:47:54,870][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 15:47:55,763][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 17:05:38,396][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 17:05:39,727][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 17:18:04,630][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 17:18:05,543][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 17:19:06,430][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 17:19:07,318][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 17:19:08,013][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 17:19:08,013][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 17:19:08,014][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 17:20:51,915][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 17:20:52,877][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 17:20:53,342][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 17:20:53,342][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 17:20:53,343][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 17:21:20,418][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:4484]
+[2023-01-17 17:21:20,423][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/user/user_info/ 200 [0.00, 127.0.0.1:4487]
+[2023-01-17 17:21:20,438][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:4487]
+[2023-01-17 17:21:20,542][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.11, 127.0.0.1:4484]
+[2023-01-17 17:21:20,586][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:4484]
+[2023-01-17 17:21:21,049][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:4484]
+[2023-01-17 17:21:21,080][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:4484]
+[2023-01-17 17:21:24,569][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:4484]
+[2023-01-17 17:21:24,673][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-17 17:21:45,860][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [21.29, 127.0.0.1:4484]
+[2023-01-17 17:21:45,873][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.01, 127.0.0.1:4484]
+[2023-01-17 17:21:45,885][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.00, 127.0.0.1:4484]
+[2023-01-17 17:21:45,906][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.02, 127.0.0.1:4484]
+[2023-01-17 17:21:46,028][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTU0NDg0LCJpYXQiOjE2NzM5NDcyODQsImp0aSI6IjQ3OTZhMmIyMDFmMDQ4NDBiNGZhOGYyN2RlNTI5YmQ1IiwidXNlcl9pZCI6MX0.0Am7YQdA_Uk-ngI6jdf4dRkaUsXC_bae1zjjpTaowc0/ [127.0.0.1:4574]
+[2023-01-17 17:21:46,030][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTU0NDg0LCJpYXQiOjE2NzM5NDcyODQsImp0aSI6IjQ3OTZhMmIyMDFmMDQ4NDBiNGZhOGYyN2RlNTI5YmQ1IiwidXNlcl9pZCI6MX0.0Am7YQdA_Uk-ngI6jdf4dRkaUsXC_bae1zjjpTaowc0/ [127.0.0.1:4574]
+[2023-01-17 17:21:46,089][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/dictionary/?limit=20&page=1&is_value=0 200 [0.00, 127.0.0.1:4484]
+[2023-01-17 17:21:46,199][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dictionary/?limit=20&page=1&is_value=0 200 [0.11, 127.0.0.1:4484]
+[2023-01-17 17:23:24,600][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/dictionary/?limit=20&page=1&is_value=1&parent=42 200 [0.00, 127.0.0.1:4606]
+[2023-01-17 17:23:24,618][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dictionary/?limit=20&page=1&is_value=1&parent=42 200 [0.01, 127.0.0.1:4606]
+[2023-01-17 17:29:50,380][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 17:29:51,345][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 17:29:51,819][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 17:29:51,819][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 17:29:51,820][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 21:45:54,820][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 21:45:55,677][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 21:45:55,678][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 21:45:55,678][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 21:48:59,160][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 21:48:59,605][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 21:48:59,606][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 21:48:59,606][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 21:50:03,898][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:11827]
+[2023-01-17 21:50:03,902][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/user/user_info/ 200 [0.01, 127.0.0.1:11830]
+[2023-01-17 21:50:03,910][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:11827]
+[2023-01-17 21:50:04,015][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.11, 127.0.0.1:11830]
+[2023-01-17 21:50:04,050][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.00, 127.0.0.1:11830]
+[2023-01-17 21:50:04,325][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:11830]
+[2023-01-17 21:50:04,346][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:11830]
+[2023-01-17 21:50:05,484][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:11830]
+[2023-01-17 21:50:05,619][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-17 21:50:07,049][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.56, 127.0.0.1:11830]
+[2023-01-17 21:50:07,049][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.00, 127.0.0.1:11830]
+[2023-01-17 21:50:07,072][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.00, 127.0.0.1:11830]
+[2023-01-17 21:50:07,093][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.02, 127.0.0.1:11830]
+[2023-01-17 21:50:07,179][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:11865]
+[2023-01-17 21:50:07,181][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:11865]
+[2023-01-17 21:50:13,380][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/select_version_number/ 200 [0.00, 127.0.0.1:11830]
+[2023-01-17 21:51:10,983][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [57.60, 127.0.0.1:11830]
+[2023-01-17 21:52:06,337][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 21:52:07,317][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 21:52:07,319][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 21:52:07,320][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 21:52:15,866][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [1.95, 127.0.0.1:11971]
+[2023-01-17 21:52:25,479][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/search_by_online_version/ 200 [0.00, 127.0.0.1:11971]
+[2023-01-17 21:52:30,903][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [5.42, 127.0.0.1:11971]
+[2023-01-17 21:53:38,905][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/ 200 [0.00, 127.0.0.1:12013]
+[2023-01-17 21:53:39,106][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.20, 127.0.0.1:12013]
+[2023-01-17 21:53:49,659][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.01, 127.0.0.1:12013]
+[2023-01-17 21:53:49,692][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12013]
+[2023-01-17 21:54:54,155][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:54:59,523][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/3/ 200 [0.00, 127.0.0.1:12041]
+[2023-01-17 21:54:59,550][django.channels.server.log_action():147] [INFO] HTTP PUT /api/system/menu/3/ 200 [0.02, 127.0.0.1:12041]
+[2023-01-17 21:54:59,680][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:55:02,287][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:55:06,616][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/12/ 200 [0.00, 127.0.0.1:12041]
+[2023-01-17 21:55:06,643][django.channels.server.log_action():147] [INFO] HTTP PUT /api/system/menu/12/ 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:55:06,779][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.04, 127.0.0.1:12041]
+[2023-01-17 21:55:12,156][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.04, 127.0.0.1:12041]
+[2023-01-17 21:55:15,511][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/17/ 200 [0.00, 127.0.0.1:12041]
+[2023-01-17 21:55:15,538][django.channels.server.log_action():147] [INFO] HTTP PUT /api/system/menu/17/ 200 [0.02, 127.0.0.1:12041]
+[2023-01-17 21:55:15,667][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:55:17,088][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:55:22,501][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/21/ 200 [0.00, 127.0.0.1:12041]
+[2023-01-17 21:55:22,528][django.channels.server.log_action():147] [INFO] HTTP PUT /api/system/menu/21/ 200 [0.02, 127.0.0.1:12041]
+[2023-01-17 21:55:22,657][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:55:26,962][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12041]
+[2023-01-17 21:59:27,350][django.channels.server.log_action():147] [INFO] HTTP POST /api/system/menu/ 200 [0.02, 127.0.0.1:12114]
+[2023-01-17 21:59:27,484][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.04, 127.0.0.1:12114]
+[2023-01-17 21:59:41,647][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.06, 127.0.0.1:12114]
+[2023-01-17 21:59:54,309][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/?parent=3 200 [0.01, 127.0.0.1:12114]
+[2023-01-17 21:59:54,355][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=3 200 [0.04, 127.0.0.1:12114]
+[2023-01-17 21:59:58,902][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.07, 127.0.0.1:12114]
+[2023-01-17 22:00:20,856][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.06, 127.0.0.1:12114]
+[2023-01-17 22:00:45,755][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.07, 127.0.0.1:12114]
+[2023-01-17 22:05:30,083][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:12180]
+[2023-01-17 22:05:30,206][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:12180]
+[2023-01-17 22:05:30,220][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/dept/all_dept/ 200 [0.01, 127.0.0.1:12180]
+[2023-01-17 22:05:30,232][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:12188]
+[2023-01-17 22:05:30,263][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:12189]
+[2023-01-17 22:05:30,285][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.06, 127.0.0.1:12180]
+[2023-01-17 22:05:30,550][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12200]
+[2023-01-17 22:05:30,554][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12200]
+[2023-01-17 22:05:30,676][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:12180]
+[2023-01-17 22:06:07,911][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:12180]
+[2023-01-17 22:07:20,734][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12200]
+[2023-01-17 22:07:21,287][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:12219]
+[2023-01-17 22:07:21,309][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:12222]
+[2023-01-17 22:07:21,338][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12222]
+[2023-01-17 22:07:21,354][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:12219]
+[2023-01-17 22:07:21,406][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.09, 127.0.0.1:12230]
+[2023-01-17 22:07:21,583][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12240]
+[2023-01-17 22:07:21,585][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12240]
+[2023-01-17 22:07:21,690][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:12230]
+[2023-01-17 22:07:28,181][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.04, 127.0.0.1:12230]
+[2023-01-17 22:08:32,657][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/22/ 200 [0.00, 127.0.0.1:12262]
+[2023-01-17 22:08:32,685][django.channels.server.log_action():147] [INFO] HTTP PUT /api/system/menu/22/ 200 [0.03, 127.0.0.1:12262]
+[2023-01-17 22:08:32,855][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.05, 127.0.0.1:12262]
+[2023-01-17 22:09:25,134][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:12262]
+[2023-01-17 22:09:30,995][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/?parent=1 200 [0.01, 127.0.0.1:12262]
+[2023-01-17 22:09:31,026][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=1 200 [0.03, 127.0.0.1:12262]
+[2023-01-17 22:09:33,790][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12262]
+[2023-01-17 22:10:49,479][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12240]
+[2023-01-17 22:10:50,032][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:12311]
+[2023-01-17 22:10:50,079][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.08, 127.0.0.1:12312]
+[2023-01-17 22:10:50,111][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12312]
+[2023-01-17 22:10:50,121][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:12311]
+[2023-01-17 22:10:50,165][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.07, 127.0.0.1:12320]
+[2023-01-17 22:10:50,278][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12330]
+[2023-01-17 22:10:50,280][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12330]
+[2023-01-17 22:10:55,387][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.30, 127.0.0.1:12320]
+[2023-01-17 22:11:02,796][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:12320]
+[2023-01-17 22:11:04,855][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=1 200 [0.03, 127.0.0.1:12320]
+[2023-01-17 22:11:07,070][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.08, 127.0.0.1:12320]
+[2023-01-17 22:11:32,582][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/2/ 200 [0.00, 127.0.0.1:12320]
+[2023-01-17 22:11:32,610][django.channels.server.log_action():147] [INFO] HTTP PUT /api/system/menu/2/ 200 [0.03, 127.0.0.1:12320]
+[2023-01-17 22:11:32,812][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.08, 127.0.0.1:12320]
+[2023-01-17 22:11:36,214][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12330]
+[2023-01-17 22:11:36,741][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:12320]
+[2023-01-17 22:11:36,769][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.04, 127.0.0.1:12311]
+[2023-01-17 22:11:36,804][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12311]
+[2023-01-17 22:11:36,816][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:12320]
+[2023-01-17 22:11:36,847][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:12312]
+[2023-01-17 22:11:36,960][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12378]
+[2023-01-17 22:11:36,965][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12378]
+[2023-01-17 22:11:37,050][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:12312]
+[2023-01-17 22:11:41,742][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.22, 127.0.0.1:12312]
+[2023-01-17 22:11:47,189][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.81, 127.0.0.1:12312]
+[2023-01-17 22:11:59,197][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.05, 127.0.0.1:12312]
+[2023-01-17 22:12:01,607][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.05, 127.0.0.1:12312]
+[2023-01-17 22:12:04,533][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=1 200 [0.03, 127.0.0.1:12312]
+[2023-01-17 22:12:07,467][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.06, 127.0.0.1:12312]
+[2023-01-17 22:12:12,390][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:12312]
+[2023-01-17 22:12:49,399][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12378]
+[2023-01-17 22:12:52,828][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:12312]
+[2023-01-17 22:12:52,852][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:12430]
+[2023-01-17 22:12:52,873][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.01, 127.0.0.1:12430]
+[2023-01-17 22:12:52,882][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:12312]
+[2023-01-17 22:12:52,914][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:12435]
+[2023-01-17 22:12:53,003][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12445]
+[2023-01-17 22:12:53,013][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12445]
+[2023-01-17 22:12:59,376][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:12435]
+[2023-01-17 22:13:02,084][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.04, 127.0.0.1:12435]
+[2023-01-17 22:13:04,672][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=1 200 [0.03, 127.0.0.1:12435]
+[2023-01-17 22:13:06,536][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.06, 127.0.0.1:12435]
+[2023-01-17 22:13:15,910][django.channels.server.log_action():147] [INFO] HTTP PUT /api/system/menu/2/ 200 [0.10, 127.0.0.1:12435]
+[2023-01-17 22:13:16,087][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:12435]
+[2023-01-17 22:13:22,758][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=1 200 [0.03, 127.0.0.1:12435]
+[2023-01-17 22:13:25,815][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.10, 127.0.0.1:12435]
+[2023-01-17 22:13:48,098][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=3 200 [0.04, 127.0.0.1:12435]
+[2023-01-17 22:13:50,387][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12435]
+[2023-01-17 22:13:55,244][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:12435]
+[2023-01-17 22:13:58,483][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12445]
+[2023-01-17 22:13:59,008][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:12435]
+[2023-01-17 22:13:59,037][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:12516]
+[2023-01-17 22:13:59,068][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12516]
+[2023-01-17 22:13:59,080][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:12435]
+[2023-01-17 22:13:59,111][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:12523]
+[2023-01-17 22:13:59,227][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12533]
+[2023-01-17 22:13:59,254][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12533]
+[2023-01-17 22:13:59,368][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.11, 127.0.0.1:12523]
+[2023-01-17 22:14:07,134][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.44, 127.0.0.1:12523]
+[2023-01-17 22:15:39,945][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.04, 127.0.0.1:12544]
+[2023-01-17 22:15:44,455][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.04, 127.0.0.1:12544]
+[2023-01-17 22:16:52,063][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:12558]
+[2023-01-17 22:16:52,136][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.07, 127.0.0.1:12558]
+[2023-01-17 22:16:55,417][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /swagger.json 200 [0.01, 127.0.0.1:12558]
+[2023-01-17 22:16:56,239][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.82, 127.0.0.1:12558]
+[2023-01-17 22:17:01,974][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.07, 127.0.0.1:12558]
+[2023-01-17 22:17:04,984][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=3 200 [0.05, 127.0.0.1:12558]
+[2023-01-17 22:17:10,433][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu_button/?limit=20&page=1&menu=7 200 [0.00, 127.0.0.1:12558]
+[2023-01-17 22:17:10,454][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=7 200 [0.02, 127.0.0.1:12558]
+[2023-01-17 22:17:27,799][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:12558]
+[2023-01-17 22:23:51,054][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:23:52,603][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:23:53,580][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:23:53,580][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:23:53,582][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:24:12,082][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 22:24:13,496][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:25:21,670][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-17 22:25:23,084][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:26:21,671][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\demand.py changed, reloading.
+[2023-01-17 22:26:23,108][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:26:41,459][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:26:42,909][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:28:25,986][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\demand.py changed, reloading.
+[2023-01-17 22:28:27,419][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:30:21,168][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 22:30:22,614][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:30:23,623][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:30:23,623][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:30:23,625][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:31:04,404][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:31:05,832][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:31:06,801][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:31:06,816][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:31:06,818][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:33:34,965][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\migrations\0001_initial.py changed, reloading.
+[2023-01-17 22:33:36,322][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:33:37,288][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:33:37,289][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:33:37,291][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:37:09,821][django.channels.server.log_action():147] [INFO] HTTP GET / 200 [0.07, 127.0.0.1:12904]
+[2023-01-17 22:37:09,948][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/style.css 200 [0.10, 127.0.0.1:12904]
+[2023-01-17 22:37:09,960][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css 200 [0.11, 127.0.0.1:12905]
+[2023-01-17 22:37:10,010][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js 200 [0.11, 127.0.0.1:12910]
+[2023-01-17 22:37:10,050][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js 200 [0.15, 127.0.0.1:12909]
+[2023-01-17 22:37:10,053][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/insQ.min.js 200 [0.15, 127.0.0.1:12911]
+[2023-01-17 22:37:10,070][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/immutable.min.js 200 [0.17, 127.0.0.1:12912]
+[2023-01-17 22:37:10,089][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/url-polyfill.min.js 200 [0.14, 127.0.0.1:12904]
+[2023-01-17 22:37:10,110][django.channels.server.log_action():147] [INFO] HTTP GET /static/drf-yasg/swagger-ui-init.js 200 [0.15, 127.0.0.1:12905]
+[2023-01-17 22:37:10,822][django.channels.server.log_action():147] [INFO] HTTP GET /?format=openapi 200 [0.67, 127.0.0.1:12905]
+[2023-01-17 22:38:12,184][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=7 200 [0.03, 127.0.0.1:12923]
+[2023-01-17 22:38:14,700][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.07, 127.0.0.1:12923]
+[2023-01-17 22:38:17,021][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:12923]
+[2023-01-17 22:38:57,222][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:12923]
+[2023-01-17 22:38:58,218][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:12923]
+[2023-01-17 22:38:58,244][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.02, 127.0.0.1:12923]
+[2023-01-17 22:38:58,257][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:12956]
+[2023-01-17 22:38:58,288][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.06, 127.0.0.1:12957]
+[2023-01-17 22:38:58,409][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12966]
+[2023-01-17 22:38:58,412][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:12966]
+[2023-01-17 22:41:07,279][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:41:08,785][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:42:43,606][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:42:45,129][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:42:46,157][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:42:46,158][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:42:46,159][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:43:40,726][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.23, 127.0.0.1:13037]
+[2023-01-17 22:43:41,396][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:13037]
+[2023-01-17 22:43:42,833][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=1 200 [0.03, 127.0.0.1:13037]
+[2023-01-17 22:43:45,671][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:13037]
+[2023-01-17 22:43:54,952][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu_button/?limit=20&page=1&menu=2 200 [0.00, 127.0.0.1:13037]
+[2023-01-17 22:43:54,977][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=2 200 [0.02, 127.0.0.1:13037]
+[2023-01-17 22:44:00,521][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.03, 127.0.0.1:13037]
+[2023-01-17 22:44:02,002][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.06, 127.0.0.1:13037]
+[2023-01-17 22:44:04,843][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?parent=1 200 [0.03, 127.0.0.1:13037]
+[2023-01-17 22:44:07,375][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:13037]
+[2023-01-17 22:47:29,517][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:47:30,997][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:47:31,992][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:47:31,992][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:47:31,993][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:48:23,450][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:48:24,904][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:48:26,631][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:48:26,631][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:48:26,633][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:48:39,696][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:13144]
+[2023-01-17 22:48:39,714][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:13147]
+[2023-01-17 22:48:39,879][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.16, 127.0.0.1:13147]
+[2023-01-17 22:48:39,890][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.17, 127.0.0.1:13144]
+[2023-01-17 22:48:39,927][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.21, 127.0.0.1:13153]
+[2023-01-17 22:48:40,043][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:13163]
+[2023-01-17 22:48:40,047][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczOTcwNjA1LCJpYXQiOjE2NzM5NjM0MDUsImp0aSI6IjMyM2RjYzdjYjAzYTRiODA4NzI5MjEzMWRiN2VhZjM0IiwidXNlcl9pZCI6MX0.2sMhHv_50PkWWEwWeWgU-wIIoB5oFC32mgdPSfuk-bs/ [127.0.0.1:13163]
+[2023-01-17 22:48:40,121][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.04, 127.0.0.1:13153]
+[2023-01-17 22:48:46,101][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.32, 127.0.0.1:13153]
+[2023-01-17 22:48:49,100][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.60, 127.0.0.1:13153]
+[2023-01-17 22:49:37,751][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.35, 127.0.0.1:13153]
+[2023-01-17 22:49:42,767][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.51, 127.0.0.1:13153]
+[2023-01-17 22:50:10,794][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.74, 127.0.0.1:13153]
+[2023-01-17 22:50:21,508][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:50:22,470][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:50:22,470][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:50:22,472][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:50:41,981][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 22:50:43,450][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:50:44,441][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:50:44,441][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:50:44,443][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:50:53,925][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [6.88, 127.0.0.1:13228]
+[2023-01-17 22:51:09,050][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-17 22:51:10,508][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:51:11,485][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:51:11,485][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:51:11,486][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:51:18,148][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.18, 127.0.0.1:13245]
+[2023-01-17 22:51:50,745][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [24.59, 127.0.0.1:13245]
+[2023-01-17 22:53:00,737][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-17 22:53:02,196][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:53:03,186][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:53:03,186][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:53:03,188][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:53:08,234][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.39, 127.0.0.1:13275]
+[2023-01-17 22:53:13,567][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [2.77, 127.0.0.1:13275]
+[2023-01-17 22:53:32,595][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.24, 127.0.0.1:13275]
+[2023-01-17 22:53:35,461][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.14, 127.0.0.1:13275]
+[2023-01-17 22:53:37,928][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [0.49, 127.0.0.1:13275]
+[2023-01-17 22:53:50,482][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [1.10, 127.0.0.1:13275]
+[2023-01-17 22:54:00,387][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [2.30, 127.0.0.1:13275]
+[2023-01-17 22:54:47,368][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-17 22:54:48,778][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:54:49,775][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:54:49,776][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:54:49,777][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:54:57,537][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [1.17, 127.0.0.1:13321]
+[2023-01-17 22:55:36,811][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py changed, reloading.
+[2023-01-17 22:55:38,245][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:55:39,219][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:55:39,220][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:55:39,221][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:57:15,264][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 22:57:16,659][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:57:17,639][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:57:17,639][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:57:17,641][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 22:58:28,186][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 22:58:29,569][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 22:58:30,532][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 22:58:30,533][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 22:58:30,537][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 23:00:55,564][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\models.py changed, reloading.
+[2023-01-17 23:00:57,043][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 23:00:58,022][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 23:00:58,023][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 23:00:58,025][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 23:02:56,311][django.utils.autoreload.trigger_reload():250] [INFO] F:\MyPyCode\django-vue-admin\backend\dvadmin\project\urls.py changed, reloading.
+[2023-01-17 23:02:57,768][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-17 23:02:58,732][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-17 23:02:58,733][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-17 23:02:58,734][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-17 23:03:14,518][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/ 200 [0.19, 127.0.0.1:13452]
+[2023-01-17 23:03:16,895][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:13452]
+[2023-01-17 23:03:18,884][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's OnlineViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 64, in get_serializer
+    serializer_class = self.get_serializer_class()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 60, in get_serializer_class
+    return super().get_serializer_class()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'OnlineViewSet' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+[2023-01-17 23:03:18,908][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's OnlineViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 64, in get_serializer
+    serializer_class = self.get_serializer_class()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 60, in get_serializer_class
+    return super().get_serializer_class()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'OnlineViewSet' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+[2023-01-17 23:03:18,910][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's OnlineViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 64, in get_serializer
+    serializer_class = self.get_serializer_class()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 60, in get_serializer_class
+    return super().get_serializer_class()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'OnlineViewSet' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+[2023-01-17 23:03:18,911][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's OnlineViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 64, in get_serializer
+    serializer_class = self.get_serializer_class()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\utils\viewset.py", line 60, in get_serializer_class
+    return super().get_serializer_class()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'OnlineViewSet' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+[2023-01-17 23:03:19,678][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.85, 127.0.0.1:13452]
+[2023-01-17 23:03:48,818][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu_button/ 200 [0.00, 127.0.0.1:13452]
+[2023-01-17 23:03:48,847][django.channels.server.log_action():147] [INFO] HTTP POST /api/system/menu_button/ 200 [0.02, 127.0.0.1:13452]
+[2023-01-17 23:03:48,886][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:13452]
+[2023-01-17 23:04:22,404][django.channels.server.log_action():147] [INFO] HTTP POST /api/system/menu_button/ 200 [0.03, 127.0.0.1:13452]
+[2023-01-17 23:04:22,473][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.04, 127.0.0.1:13452]
+[2023-01-17 23:04:42,049][django.channels.server.log_action():147] [INFO] HTTP POST /api/system/menu_button/ 200 [0.03, 127.0.0.1:13452]
+[2023-01-17 23:04:42,096][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:13452]
+[2023-01-17 23:05:09,246][django.channels.server.log_action():147] [INFO] HTTP POST /api/system/menu_button/ 200 [0.03, 127.0.0.1:13452]
+[2023-01-17 23:05:09,297][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:13452]
+[2023-01-17 23:05:40,473][django.channels.server.log_action():147] [INFO] HTTP POST /api/system/menu_button/ 200 [0.03, 127.0.0.1:13452]
+[2023-01-17 23:05:40,533][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.03, 127.0.0.1:13452]
+[2023-01-17 23:06:01,894][django.channels.server.log_action():147] [INFO] HTTP POST /api/system/menu_button/ 200 [0.03, 127.0.0.1:13452]
+[2023-01-17 23:06:01,948][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:13452]
+[2023-01-18 08:53:54,209][django.utils.autoreload.run_with_reloader():636] [INFO] Watching for file changes with StatReloader
+[2023-01-18 08:53:56,095][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-01-18 08:53:56,095][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-18 08:53:56,097][daphne.server.listen_success():153] [INFO] Listening on TCP address 127.0.0.1:8000
+[2023-01-18 08:54:26,248][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:12294]
+[2023-01-18 08:54:26,266][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:12294]
+[2023-01-18 08:54:27,215][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/user/user_info/ 200 [0.01, 127.0.0.1:12294]
+[2023-01-18 08:54:27,249][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:12294]
+[2023-01-18 08:54:27,317][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.00, 127.0.0.1:12294]
+[2023-01-18 08:54:28,380][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:12294]
+[2023-01-18 08:54:29,234][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:12294]
+[2023-01-18 09:11:40,715][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:12721]
+[2023-01-18 09:11:40,828][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-18 09:11:51,998][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [11.28, 127.0.0.1:12721]
+[2023-01-18 09:11:52,014][dvadmin.utils.backends.authenticate():19] [INFO] superadmin 正在使用本地登录...
+[2023-01-18 09:11:52,098][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [3.99, 127.0.0.1:12733]
+[2023-01-18 09:11:52,121][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.11, 127.0.0.1:12721]
+[2023-01-18 09:11:52,145][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:12733]
+[2023-01-18 09:11:52,150][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.01, 127.0.0.1:12721]
+[2023-01-18 09:11:52,157][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/menu/web_router/ 200 [0.01, 127.0.0.1:12733]
+[2023-01-18 09:11:52,201][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:12721]
+[2023-01-18 09:11:52,241][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.04, 127.0.0.1:12733]
+[2023-01-18 09:11:52,399][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:12753]
+[2023-01-18 09:11:52,404][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:12753]
+[2023-01-18 09:11:58,846][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/select_version_number/ 200 [0.01, 127.0.0.1:12733]
+[2023-01-18 09:11:59,128][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/select_version_number/ 200 [0.28, 127.0.0.1:12733]
+[2023-01-18 09:12:01,017][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/project/online/search_by_online_version/ 200 [0.00, 127.0.0.1:12733]
+[2023-01-18 09:12:05,099][django.channels.server.log_action():147] [INFO] HTTP POST /api/project/online/search_by_online_version/ 200 [4.08, 127.0.0.1:12733]
+[2023-01-18 09:19:48,180][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:12753]
+[2023-01-18 09:19:49,184][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:13105]
+[2023-01-18 09:19:49,213][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.02, 127.0.0.1:13105]
+[2023-01-18 09:19:49,227][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/dept/all_dept/ 200 [0.01, 127.0.0.1:13105]
+[2023-01-18 09:19:49,240][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:13113]
+[2023-01-18 09:19:49,271][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.05, 127.0.0.1:13114]
+[2023-01-18 09:19:49,515][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.28, 127.0.0.1:13105]
+[2023-01-18 09:20:08,102][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:13131]
+[2023-01-18 09:20:08,105][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:13131]
+[2023-01-18 09:20:59,469][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:13131]
+[2023-01-18 09:21:00,150][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:13165]
+[2023-01-18 09:21:00,171][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/user/user_info/ 200 [0.03, 127.0.0.1:13168]
+[2023-01-18 09:21:00,213][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/dept/all_dept/ 200 [0.03, 127.0.0.1:13168]
+[2023-01-18 09:21:00,228][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:13165]
+[2023-01-18 09:21:00,268][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/menu/web_router/ 200 [0.08, 127.0.0.1:13174]
+[2023-01-18 09:21:00,358][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:13187]
+[2023-01-18 09:21:00,361][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0MDExNTEyLCJpYXQiOjE2NzQwMDQzMTIsImp0aSI6IjVmMmVkNDJlOWJlODQ4ZjFhZGE3ZDIwNGRjNzJjMmI4IiwidXNlcl9pZCI6MX0.sDVvfORqKjGSam0tVPvOsTTG2J7m17cPIV_3rF6xbBA/ [127.0.0.1:13187]
+[2023-01-18 09:21:15,706][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/employee/?user_type=0&limit=20&page=1 200 [0.01, 127.0.0.1:13174]
+[2023-01-18 09:21:15,743][django.channels.server.log_action():147] [INFO] HTTP GET /api/system/employee/?user_type=0&limit=20&page=1 200 [0.03, 127.0.0.1:13174]

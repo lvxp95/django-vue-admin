@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     "corsheaders",  # 注册跨域app
     "dvadmin.system",
     "dvadmin.project",
+    # "dvadmin.demand",
     "drf_yasg",
     "captcha",
     'channels',

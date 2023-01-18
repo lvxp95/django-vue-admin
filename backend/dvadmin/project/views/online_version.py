@@ -11,9 +11,7 @@ from application import settings
 import xlrd
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
-from dvadmin.project.models import Online
-from dvadmin.utils.json_response import SuccessResponse
-from dvadmin.utils.serializers import CustomModelSerializer
+from dvadmin.utils.json_response import SuccessResponse, DetailResponse
 from dvadmin.utils.viewset import CustomModelViewSet
 
 svn_settings = settings.SVN_SETTINGS
@@ -112,28 +110,6 @@ def get_employee_info_data(file_path, version_number):
     return employee_data, t_online_statistics_162, t_online_statistics_143
 
 
-class OnlineSerializer(CustomModelSerializer):
-    """
-    上线版本序列化器
-    """
-
-    class Meta:
-        model = Online
-        fields = "__all__"
-        read_only_fields = ['id']
-
-
-class OnlineCreateUpdateSerializer(CustomModelSerializer):
-    """
-    创建/更新时的列化器
-    """
-    print("上线版本创建/更新时序列化器")
-
-    class Meta:
-        model = Online
-        fields = '__all__'
-
-
 class OnlineViewSet(CustomModelViewSet):
     """
     list:查询
@@ -142,9 +118,6 @@ class OnlineViewSet(CustomModelViewSet):
     retrieve:单例
     destroy:删除
     """
-    queryset = Online.objects.all()  # 指明该视图集在查询数据时使用的查询集
-    serializer_class = OnlineSerializer  # 指明该视图在记性序列化或者反序列化时使用的序列化器
-
     @action(methods=["POST"], detail=False, permission_classes=[IsAuthenticated])
     def select_version_number(self, request):
         locale_path = os.getcwd() + '\static\svn_file_info.txt'
@@ -175,16 +148,21 @@ class OnlineViewSet(CustomModelViewSet):
         setting['dist'] = os.getcwd() + '\static\svn_file'
 
         # 从svn检查文件
-        cmd = 'svn export %(url)s %(dist)s --username %(user)s --password %(pwd)s' % setting
+        cmd = 'svn export \"%(url)s\" %(dist)s --username %(user)s --password %(pwd)s' % setting
         os.system(cmd)
 
         # 获取上线清单内容和统计数据
         data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
                                                                                         file_name, online_version)
-        self.get_queryset().filter(version_number=online_version).delete()
-        serializer_class = self.get_serializer_class()
-        serializer = serializer_class(data=data, many=True)
-        serializer.is_valid(raise_exception=True)
-        serializer.save()
+        # self.get_queryset().filter(version_number=online_version).delete()
+        # serializer_class = self.get_serializer_class()
+        # serializer = serializer_class(data=data, many=True)
+        # try:
+        #     serializer.is_valid(raise_exception=True)
+        # except Exception as e:
+        #     print(e)
+        #     os.remove(setting['dist'] + '\\' + file_name)
+        #     return DetailResponse(data={'162': [], '143': []}, msg="数据校验失败： "+e)
+        # serializer.save()
         os.remove(setting['dist'] + '\\' + file_name)
-        return SuccessResponse(data=t_online_statistics_162, total=len(data), msg="获取成功")
+        return SuccessResponse(data={'162': t_online_statistics_162, '143': t_online_statistics_143}, msg="获取成功")

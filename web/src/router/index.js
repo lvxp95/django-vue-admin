@@ -75,8 +75,9 @@ router.beforeEach(async (to, from, next) => {
         const routes = handleRouter(ret)
         // 处理路由 得到每一级的路由设置
         store.commit('d2admin/page/init', routes)
-
-        router.addRoutes(routes)
+        routes.forEach((val) => {
+          router.addRoute(val)
+        })
         // routes.forEach(route => router.addRoute(route))
 
         const menu = handleAsideMenu(ret)

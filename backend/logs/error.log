@@ -2168,3 +2168,271 @@ OSError: [Errno 22] Invalid argument
     raise FieldError("Cannot resolve keyword '%s' into field. "
 django.core.exceptions.FieldError: Cannot resolve keyword 'onlineversion' into field. Choices are: bureau_manager, demand_complexity, demand_manager, demand_number, demand_source, demand_type, development_group_leader, development_manager, equest_number, id, notes, oft_development, oft_test_result, ost_development, ost_test_result, requirements, systems, tester, version_number
 
+[2023-01-16 16:41:25,875][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 17:21:43,652][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 17:28:25,394][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:21:51,775][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:22:57,750][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:25:31,758][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:26:27,673][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:29:19,041][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\'2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'"
+
+[2023-01-16 20:29:36,527][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 183, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:33:03,176][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:41:48,504][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:42:15,293][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 20:45:59,446][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 21:59:00,169][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 22:00:13,848][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 182, in search_by_online_version
+    data, t_online_statistics_162, t_online_statistics_143 = get_employee_info_data(setting['dist'] + '\\' +
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 65, in get_employee_info_data
+    work_book = xlrd.open_workbook(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 22:00:56,879][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 188, in search_by_online_version
+    serializer.is_valid(raise_exception=True)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 733, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: [{'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}, {'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 193, in search_by_online_version
+    return DetailResponse(data={'162': [], '143': []}, msg="数据校验失败： "+e)
+                                                           ~~~~~~~~~~~~~~~~~~~~~~~~^
+TypeError: can only concatenate str (not "ValidationError") to str
+
+[2023-01-16 22:03:46,914][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 188, in search_by_online_version
+    serializer.is_valid(raise_exception=True)
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\serializers.py", line 733, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: [{'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}, {'version_number': [ErrorDetail(string='请确保这个字段不能超过 10 个字符。', code='max_length')]}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 192, in search_by_online_version
+    os.remove(setting['dist'] + '\\' + file_name)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
+[2023-01-16 22:04:52,413][dvadmin.utils.exception.CustomExceptionHandler():54] [ERROR] Traceback (most recent call last):
+  File "D:\00-SoftWare\Python3.11\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\MyPyCode\django-vue-admin\backend\dvadmin\project\views\online_version.py", line 195, in search_by_online_version
+    os.remove(setting['dist'] + '\\' + file_name)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'F:\\MyPyCode\\django-vue-admin\\backend\\static\\svn_file\\2022年辽宁移动系统升级_12_01 (国际短信接收需求专用).xlsx'
+
